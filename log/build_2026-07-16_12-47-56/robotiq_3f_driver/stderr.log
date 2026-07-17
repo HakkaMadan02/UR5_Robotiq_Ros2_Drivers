@@ -1,0 +1,16 @@
+[01m[K/home/kunalgarg/Desktop/3f_robotiq/ws/src/ros2_robotiq_3f_gripper/robotiq_3f_driver/src/robotiq_3f_driver_node.cpp:[m[K In constructor ‘[01m[KROSDriver::[01;32m[KROSDriver[m[K()[m[K’:
+[01m[K/home/kunalgarg/Desktop/3f_robotiq/ws/src/ros2_robotiq_3f_gripper/robotiq_3f_driver/src/robotiq_3f_driver_node.cpp:167:99:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktypename rclcpp::Service<ServiceT>::SharedPtr rclcpp::Node::[01;32m[Kcreate_service[m[K(const std::string&, CallbackT&&, const rmw_qos_profile_t&, rclcpp::CallbackGroup::SharedPtr) [35m[K[with ServiceT = robotiq_3f_interfaces::srv::ChangeGraspingMode; CallbackT = std::_Bind<void (ROSDriver::*(ROSDriver*, std::_Placeholder<1>, std::_Placeholder<2>))(std::shared_ptr<const robotiq_3f_interfaces::srv::ChangeGraspingMode_Request_<std::allocator<void> > >, std::shared_ptr<robotiq_3f_interfaces::srv::ChangeGraspingMode_Response_<std::allocator<void> > >)>; typename rclcpp::Service<ServiceT>::SharedPtr = std::shared_ptr<rclcpp::Service<robotiq_3f_interfaces::srv::ChangeGraspingMode> >; std::string = std::__cxx11::basic_string<char>; rmw_qos_profile_t = rmw_qos_profile_s; rclcpp::CallbackGroup::SharedPtr = std::shared_ptr<rclcpp::CallbackGroup>][m[K[m[K’ is deprecated: use rclcpp::QoS instead of rmw_qos_profile_t [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  167 |     change_grasping_mode_service_ = [01;35m[Kcreate_service<robotiq_3f_interfaces::srv::ChangeGraspingMode>([m[K
+      |                                     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+  168 | [01;35m[K        "change_grasping_mode", std::bind(&ROSDriver::change_grasping_mode, this, _1, _2),[m[K
+      |         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K         
+  169 | [01;35m[K        rmw_qos_profile_services_default, change_grasping_mode_cb_group_)[m[K;
+      |         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K                          
+In file included from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:1663[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:172[m[K,
+                 from [01m[K/home/kunalgarg/Desktop/3f_robotiq/ws/src/ros2_robotiq_3f_gripper/robotiq_3f_driver/src/robotiq_3f_driver_node.cpp:31[m[K:
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node_impl.hpp:192:1:[m[K [01;36m[Knote: [m[Kdeclared here
+  192 | [01;36m[KNode[m[K::create_service(
+      | [01;36m[K^~~~[m[K

@@ -1,0 +1,11 @@
+[0.000000] (-) TimerEvent: {}
+[0.000208] (-) JobUnselected: {'identifier': 'robotiq_3f_description'}
+[0.000248] (-) JobUnselected: {'identifier': 'robotiq_3f_hardware_tests'}
+[0.000264] (-) JobUnselected: {'identifier': 'robotiq_3f_interfaces'}
+[0.000277] (-) JobUnselected: {'identifier': 'robotiq_3f_transmission_plugins'}
+[0.000314] (-) JobUnselected: {'identifier': 'serial'}
+[0.000326] (-) JobUnselected: {'identifier': 'ur5_robotiq_3f_description'}
+[0.000338] (robotiq_3f_driver) JobQueued: {'identifier': 'robotiq_3f_driver', 'dependencies': OrderedDict({'robotiq_3f_interfaces': '/home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_interfaces', 'robotiq_3f_transmission_plugins': '/home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_transmission_plugins', 'serial': '/home/kunalgarg/Desktop/3f_robotiq/install/serial'})}
+[0.000363] (robotiq_3f_driver) JobStarted: {'identifier': 'robotiq_3f_driver'}
+[0.005360] (robotiq_3f_driver) JobEnded: {'identifier': 'robotiq_3f_driver', 'rc': 1}
+[0.015829] (-) EventReactorShutdown: {}

@@ -1,0 +1,74 @@
+[0.008s] Invoking command in '/home/kunalgarg/Desktop/3f_robotiq/build/robotiq_3f_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/kunalgarg/Desktop/3f_robotiq/ws/src/ros2_robotiq_3f_gripper/robotiq_3f_description -DBUILD_TESTING=OFF -DCMAKE_INSTALL_PREFIX=/home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_description
+[0.093s] -- The C compiler identification is GNU 13.3.0
+[0.161s] -- The CXX compiler identification is GNU 13.3.0
+[0.174s] -- Detecting C compiler ABI info
+[0.241s] -- Detecting C compiler ABI info - done
+[0.247s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.248s] -- Detecting C compile features
+[0.248s] -- Detecting C compile features - done
+[0.256s] -- Detecting CXX compiler ABI info
+[0.325s] -- Detecting CXX compiler ABI info - done
+[0.331s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.331s] -- Detecting CXX compile features
+[0.332s] -- Detecting CXX compile features - done
+[0.336s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.429s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.571s] -- Configuring done (0.5s)
+[0.572s] -- Generating done (0.0s)
+[0.573s] -- Build files have been written to: /home/kunalgarg/Desktop/3f_robotiq/build/robotiq_3f_description
+[0.577s] Invoked command in '/home/kunalgarg/Desktop/3f_robotiq/build/robotiq_3f_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/kunalgarg/Desktop/3f_robotiq/ws/src/ros2_robotiq_3f_gripper/robotiq_3f_description -DBUILD_TESTING=OFF -DCMAKE_INSTALL_PREFIX=/home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_description
+[0.578s] Invoking command in '/home/kunalgarg/Desktop/3f_robotiq/build/robotiq_3f_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/kunalgarg/Desktop/3f_robotiq/build/robotiq_3f_description -- -j24 -l24
+[0.608s] Invoked command in '/home/kunalgarg/Desktop/3f_robotiq/build/robotiq_3f_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/kunalgarg/Desktop/3f_robotiq/build/robotiq_3f_description -- -j24 -l24
+[0.618s] Invoking command in '/home/kunalgarg/Desktop/3f_robotiq/build/robotiq_3f_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/kunalgarg/Desktop/3f_robotiq/build/robotiq_3f_description
+[0.623s] -- Install configuration: ""
+[0.623s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_description/share/robotiq_3f_description/launch
+[0.623s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_description/share/robotiq_3f_description/launch/visualize_description.launch.xml
+[0.624s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_description/share/robotiq_3f_description/launch/robotiq_3f_gripper.launch.xml
+[0.624s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_description/share/robotiq_3f_description/meshes
+[0.624s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_description/share/robotiq_3f_description/meshes/visual
+[0.624s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_description/share/robotiq_3f_description/meshes/visual/link_2.blend
+[0.625s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_description/share/robotiq_3f_description/meshes/visual/link_2.blend1
+[0.626s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_description/share/robotiq_3f_description/meshes/visual/link_1.blend1
+[0.627s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_description/share/robotiq_3f_description/meshes/visual/link_3.blend
+[0.627s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_description/share/robotiq_3f_description/meshes/visual/link_1.dae
+[0.627s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_description/share/robotiq_3f_description/meshes/visual/palm.blend1
+[0.628s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_description/share/robotiq_3f_description/meshes/visual/link_2_base.png
+[0.629s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_description/share/robotiq_3f_description/meshes/visual/link_2.dae
+[0.629s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_description/share/robotiq_3f_description/meshes/visual/palm_base.png
+[0.630s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_description/share/robotiq_3f_description/meshes/visual/base.png
+[0.630s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_description/share/robotiq_3f_description/meshes/visual/palm.dae
+[0.631s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_description/share/robotiq_3f_description/meshes/visual/link_3_material_map.png
+[0.631s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_description/share/robotiq_3f_description/meshes/visual/link_1.blend
+[0.632s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_description/share/robotiq_3f_description/meshes/visual/palm.blend
+[0.633s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_description/share/robotiq_3f_description/meshes/visual/link_0.dae
+[0.633s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_description/share/robotiq_3f_description/meshes/visual/link_3_base_color.png
+[0.633s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_description/share/robotiq_3f_description/meshes/visual/link_1_base.png
+[0.634s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_description/share/robotiq_3f_description/meshes/visual/link_3.blend1
+[0.634s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_description/share/robotiq_3f_description/meshes/visual/link_3.dae
+[0.634s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_description/share/robotiq_3f_description/meshes/collision
+[0.634s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_description/share/robotiq_3f_description/meshes/collision/link_2.STL
+[0.635s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_description/share/robotiq_3f_description/meshes/collision/link_0.STL
+[0.635s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_description/share/robotiq_3f_description/meshes/collision/palm.STL
+[0.635s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_description/share/robotiq_3f_description/meshes/collision/link_3.STL
+[0.635s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_description/share/robotiq_3f_description/meshes/collision/link_1.STL
+[0.635s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_description/share/robotiq_3f_description/urdf
+[0.635s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_description/share/robotiq_3f_description/urdf/helper_macros.xacro
+[0.636s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_description/share/robotiq_3f_description/urdf/robotiq_3f_gripper_finger_macro.xacro
+[0.636s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_description/share/robotiq_3f_description/urdf/robotiq_3f_gripper_macro.xacro
+[0.636s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_description/share/robotiq_3f_description/urdf/robotiq_3f_gripper.xacro
+[0.636s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_description/share/ament_index/resource_index/package_run_dependencies/robotiq_3f_description
+[0.636s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_description/share/ament_index/resource_index/parent_prefix_path/robotiq_3f_description
+[0.636s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_description/share/robotiq_3f_description/environment/ament_prefix_path.sh
+[0.636s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_description/share/robotiq_3f_description/environment/ament_prefix_path.dsv
+[0.636s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_description/share/robotiq_3f_description/environment/path.sh
+[0.637s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_description/share/robotiq_3f_description/environment/path.dsv
+[0.637s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_description/share/robotiq_3f_description/local_setup.bash
+[0.637s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_description/share/robotiq_3f_description/local_setup.sh
+[0.637s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_description/share/robotiq_3f_description/local_setup.zsh
+[0.637s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_description/share/robotiq_3f_description/local_setup.dsv
+[0.637s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_description/share/robotiq_3f_description/package.dsv
+[0.637s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_description/share/ament_index/resource_index/packages/robotiq_3f_description
+[0.637s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_description/share/robotiq_3f_description/cmake/robotiq_3f_descriptionConfig.cmake
+[0.637s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_description/share/robotiq_3f_description/cmake/robotiq_3f_descriptionConfig-version.cmake
+[0.637s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_description/share/robotiq_3f_description/package.xml
+[0.639s] Invoked command in '/home/kunalgarg/Desktop/3f_robotiq/build/robotiq_3f_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/kunalgarg/Desktop/3f_robotiq/build/robotiq_3f_description

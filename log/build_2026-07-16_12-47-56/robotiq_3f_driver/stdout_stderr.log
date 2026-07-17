@@ -1,0 +1,101 @@
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Found control_msgs: 5.9.0 (/opt/ros/jazzy/share/control_msgs/cmake)
+-- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found pluginlib: 5.4.5 (/opt/ros/jazzy/share/pluginlib/cmake)
+-- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+-- Found rclcpp: 28.1.18 (/opt/ros/jazzy/share/rclcpp/cmake)
+-- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+-- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+-- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+-- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+-- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found rclcpp_action: 28.1.18 (/opt/ros/jazzy/share/rclcpp_action/cmake)
+-- Found rclcpp_lifecycle: 28.1.18 (/opt/ros/jazzy/share/rclcpp_lifecycle/cmake)
+-- Found robotiq_3f_interfaces: 0.0.1 (/home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_interfaces/share/robotiq_3f_interfaces/cmake)
+-- Found robotiq_3f_transmission_plugins: 0.0.0 (/home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_transmission_plugins/share/robotiq_3f_transmission_plugins/cmake)
+-- Found serial: 1.2.1 (/home/kunalgarg/Desktop/3f_robotiq/install/serial/share/serial/cmake)
+-- Configuring done (0.9s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/kunalgarg/Desktop/3f_robotiq/build/robotiq_3f_driver
+[ 22%] [32mBuilding CXX object CMakeFiles/robotiq_3f_driver.dir/src/crc_utils.cpp.o[0m
+[ 22%] [32mBuilding CXX object CMakeFiles/robotiq_3f_driver.dir/src/default_driver.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/robotiq_3f_driver.dir/src/fake/fake_driver.cpp.o[0m
+[ 55%] [32mBuilding CXX object CMakeFiles/robotiq_3f_driver.dir/src/default_serial.cpp.o[0m
+[ 55%] [32mBuilding CXX object CMakeFiles/robotiq_3f_driver.dir/src/default_driver_utils.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/robotiq_3f_driver.dir/src/data_utils.cpp.o[0m
+[ 77%] [32m[1mLinking CXX shared library librobotiq_3f_driver.so[0m
+[ 77%] Built target robotiq_3f_driver
+[ 88%] [32mBuilding CXX object CMakeFiles/robotiq_3f_driver_node.dir/src/robotiq_3f_driver_node.cpp.o[0m
+[01m[K/home/kunalgarg/Desktop/3f_robotiq/ws/src/ros2_robotiq_3f_gripper/robotiq_3f_driver/src/robotiq_3f_driver_node.cpp:[m[K In constructor ‘[01m[KROSDriver::[01;32m[KROSDriver[m[K()[m[K’:
+[01m[K/home/kunalgarg/Desktop/3f_robotiq/ws/src/ros2_robotiq_3f_gripper/robotiq_3f_driver/src/robotiq_3f_driver_node.cpp:167:99:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktypename rclcpp::Service<ServiceT>::SharedPtr rclcpp::Node::[01;32m[Kcreate_service[m[K(const std::string&, CallbackT&&, const rmw_qos_profile_t&, rclcpp::CallbackGroup::SharedPtr) [35m[K[with ServiceT = robotiq_3f_interfaces::srv::ChangeGraspingMode; CallbackT = std::_Bind<void (ROSDriver::*(ROSDriver*, std::_Placeholder<1>, std::_Placeholder<2>))(std::shared_ptr<const robotiq_3f_interfaces::srv::ChangeGraspingMode_Request_<std::allocator<void> > >, std::shared_ptr<robotiq_3f_interfaces::srv::ChangeGraspingMode_Response_<std::allocator<void> > >)>; typename rclcpp::Service<ServiceT>::SharedPtr = std::shared_ptr<rclcpp::Service<robotiq_3f_interfaces::srv::ChangeGraspingMode> >; std::string = std::__cxx11::basic_string<char>; rmw_qos_profile_t = rmw_qos_profile_s; rclcpp::CallbackGroup::SharedPtr = std::shared_ptr<rclcpp::CallbackGroup>][m[K[m[K’ is deprecated: use rclcpp::QoS instead of rmw_qos_profile_t [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  167 |     change_grasping_mode_service_ = [01;35m[Kcreate_service<robotiq_3f_interfaces::srv::ChangeGraspingMode>([m[K
+      |                                     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+  168 | [01;35m[K        "change_grasping_mode", std::bind(&ROSDriver::change_grasping_mode, this, _1, _2),[m[K
+      |         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K         
+  169 | [01;35m[K        rmw_qos_profile_services_default, change_grasping_mode_cb_group_)[m[K;
+      |         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K                          
+In file included from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:1663[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:172[m[K,
+                 from [01m[K/home/kunalgarg/Desktop/3f_robotiq/ws/src/ros2_robotiq_3f_gripper/robotiq_3f_driver/src/robotiq_3f_driver_node.cpp:31[m[K:
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node_impl.hpp:192:1:[m[K [01;36m[Knote: [m[Kdeclared here
+  192 | [01;36m[KNode[m[K::create_service(
+      | [01;36m[K^~~~[m[K
+[100%] [32m[1mLinking CXX executable robotiq_3f_driver_node[0m
+[100%] Built target robotiq_3f_driver_node
+-- Install configuration: ""
+-- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_driver/share/robotiq_3f_driver/environment/library_path.sh
+-- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_driver/share/robotiq_3f_driver/environment/library_path.dsv
+-- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_driver/include
+-- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_driver/include/robotiq_3f_driver
+-- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_driver/include/robotiq_3f_driver/serial.hpp
+-- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_driver/include/robotiq_3f_driver/default_serial.hpp
+-- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_driver/include/robotiq_3f_driver/default_driver.hpp
+-- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_driver/include/robotiq_3f_driver/fake
+-- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_driver/include/robotiq_3f_driver/fake/fake_driver.hpp
+-- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_driver/include/robotiq_3f_driver/data_utils.hpp
+-- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_driver/include/robotiq_3f_driver/driver.hpp
+-- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_driver/include/robotiq_3f_driver/driver_exception.hpp
+-- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_driver/include/robotiq_3f_driver/visibility_control.hpp
+-- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_driver/include/robotiq_3f_driver/default_driver_utils.hpp
+-- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_driver/include/robotiq_3f_driver/crc_utils.hpp
+-- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_driver/lib/librobotiq_3f_driver.so
+-- Set non-toolchain portion of runtime path of "/home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_driver/lib/librobotiq_3f_driver.so" to ""
+-- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_driver/lib/robotiq_3f_driver/robotiq_3f_driver_node
+-- Set non-toolchain portion of runtime path of "/home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_driver/lib/robotiq_3f_driver/robotiq_3f_driver_node" to ""
+-- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_driver/share/ament_index/resource_index/package_run_dependencies/robotiq_3f_driver
+-- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_driver/share/ament_index/resource_index/parent_prefix_path/robotiq_3f_driver
+-- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_driver/share/robotiq_3f_driver/environment/ament_prefix_path.sh
+-- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_driver/share/robotiq_3f_driver/environment/ament_prefix_path.dsv
+-- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_driver/share/robotiq_3f_driver/environment/path.sh
+-- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_driver/share/robotiq_3f_driver/environment/path.dsv
+-- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_driver/share/robotiq_3f_driver/local_setup.bash
+-- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_driver/share/robotiq_3f_driver/local_setup.sh
+-- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_driver/share/robotiq_3f_driver/local_setup.zsh
+-- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_driver/share/robotiq_3f_driver/local_setup.dsv
+-- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_driver/share/robotiq_3f_driver/package.dsv
+-- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_driver/share/ament_index/resource_index/packages/robotiq_3f_driver
+-- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_driver/share/robotiq_3f_driver/cmake/robotiq_3f_driver_targetsExport.cmake
+-- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_driver/share/robotiq_3f_driver/cmake/robotiq_3f_driver_targetsExport-noconfig.cmake
+-- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_driver/share/robotiq_3f_driver/cmake/ament_cmake_export_targets-extras.cmake
+-- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_driver/share/robotiq_3f_driver/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_driver/share/robotiq_3f_driver/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_driver/share/robotiq_3f_driver/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_driver/share/robotiq_3f_driver/cmake/robotiq_3f_driverConfig.cmake
+-- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_driver/share/robotiq_3f_driver/cmake/robotiq_3f_driverConfig-version.cmake
+-- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_driver/share/robotiq_3f_driver/package.xml

@@ -1,0 +1,10 @@
+/home/kunalgarg/Desktop/3f_robotiq/build/serial/CMakeFiles/uninstall.dir
+/home/kunalgarg/Desktop/3f_robotiq/build/serial/CMakeFiles/serial_uninstall.dir
+/home/kunalgarg/Desktop/3f_robotiq/build/serial/CMakeFiles/serial.dir
+/home/kunalgarg/Desktop/3f_robotiq/build/serial/CMakeFiles/test.dir
+/home/kunalgarg/Desktop/3f_robotiq/build/serial/CMakeFiles/edit_cache.dir
+/home/kunalgarg/Desktop/3f_robotiq/build/serial/CMakeFiles/rebuild_cache.dir
+/home/kunalgarg/Desktop/3f_robotiq/build/serial/CMakeFiles/list_install_components.dir
+/home/kunalgarg/Desktop/3f_robotiq/build/serial/CMakeFiles/install.dir
+/home/kunalgarg/Desktop/3f_robotiq/build/serial/CMakeFiles/install/local.dir
+/home/kunalgarg/Desktop/3f_robotiq/build/serial/CMakeFiles/install/strip.dir

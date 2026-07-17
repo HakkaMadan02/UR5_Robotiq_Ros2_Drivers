@@ -1,0 +1,124 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-460e2587cb38ee00dfca.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "robotiq_3f_hardware_tests",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "activate::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-activate-98db3417d1782b50afa1.json",
+					"name" : "activate",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "break::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-break-556e04236fa922e39ff4.json",
+					"name" : "break",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "deactivate::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-deactivate-ed5e9ed052dd0cdc02dc.json",
+					"name" : "deactivate",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "get_status::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-get_status-3b0fc1595c118b223356.json",
+					"name" : "get_status",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "grip::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-grip-d3f1561ff10f682b01d4.json",
+					"name" : "grip",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "release::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-release-ef14b08854634240e7ec.json",
+					"name" : "release",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robotiq_3f_hardware_tests_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robotiq_3f_hardware_tests_uninstall-9f2a682eee245bf5b478.json",
+					"name" : "robotiq_3f_hardware_tests_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-2aeb01d93cf5e57f67e4.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/kunalgarg/Desktop/3f_robotiq/build/robotiq_3f_hardware_tests",
+		"source" : "/home/kunalgarg/Desktop/3f_robotiq/ws/src/ros2_robotiq_3f_gripper/robotiq_3f_hardware_tests"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

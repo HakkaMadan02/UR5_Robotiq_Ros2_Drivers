@@ -1,0 +1,17 @@
+/home/kunalgarg/Desktop/3f_robotiq/install/ur5_robotiq_3f_description/share/ur5_robotiq_3f_description/launch/visualize.launch.py
+/home/kunalgarg/Desktop/3f_robotiq/install/ur5_robotiq_3f_description/share/ur5_robotiq_3f_description/urdf/ur5_robotiq_3f.urdf.xacro
+/home/kunalgarg/Desktop/3f_robotiq/install/ur5_robotiq_3f_description/share/ament_index/resource_index/package_run_dependencies/ur5_robotiq_3f_description
+/home/kunalgarg/Desktop/3f_robotiq/install/ur5_robotiq_3f_description/share/ament_index/resource_index/parent_prefix_path/ur5_robotiq_3f_description
+/home/kunalgarg/Desktop/3f_robotiq/install/ur5_robotiq_3f_description/share/ur5_robotiq_3f_description/environment/ament_prefix_path.sh
+/home/kunalgarg/Desktop/3f_robotiq/install/ur5_robotiq_3f_description/share/ur5_robotiq_3f_description/environment/ament_prefix_path.dsv
+/home/kunalgarg/Desktop/3f_robotiq/install/ur5_robotiq_3f_description/share/ur5_robotiq_3f_description/environment/path.sh
+/home/kunalgarg/Desktop/3f_robotiq/install/ur5_robotiq_3f_description/share/ur5_robotiq_3f_description/environment/path.dsv
+/home/kunalgarg/Desktop/3f_robotiq/install/ur5_robotiq_3f_description/share/ur5_robotiq_3f_description/local_setup.bash
+/home/kunalgarg/Desktop/3f_robotiq/install/ur5_robotiq_3f_description/share/ur5_robotiq_3f_description/local_setup.sh
+/home/kunalgarg/Desktop/3f_robotiq/install/ur5_robotiq_3f_description/share/ur5_robotiq_3f_description/local_setup.zsh
+/home/kunalgarg/Desktop/3f_robotiq/install/ur5_robotiq_3f_description/share/ur5_robotiq_3f_description/local_setup.dsv
+/home/kunalgarg/Desktop/3f_robotiq/install/ur5_robotiq_3f_description/share/ur5_robotiq_3f_description/package.dsv
+/home/kunalgarg/Desktop/3f_robotiq/install/ur5_robotiq_3f_description/share/ament_index/resource_index/packages/ur5_robotiq_3f_description
+/home/kunalgarg/Desktop/3f_robotiq/install/ur5_robotiq_3f_description/share/ur5_robotiq_3f_description/cmake/ur5_robotiq_3f_descriptionConfig.cmake
+/home/kunalgarg/Desktop/3f_robotiq/install/ur5_robotiq_3f_description/share/ur5_robotiq_3f_description/cmake/ur5_robotiq_3f_descriptionConfig-version.cmake
+/home/kunalgarg/Desktop/3f_robotiq/install/ur5_robotiq_3f_description/share/ur5_robotiq_3f_description/package.xml

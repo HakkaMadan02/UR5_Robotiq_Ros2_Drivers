@@ -1,0 +1,74 @@
+[0.007s] Invoking command in '/home/kunalgarg/Desktop/3f_robotiq/build/robotiq_3f_transmission_plugins': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/kunalgarg/Desktop/3f_robotiq/ws/src/ros2_robotiq_3f_gripper/robotiq_3f_transmission_plugins -DBUILD_TESTING=OFF -DCMAKE_INSTALL_PREFIX=/home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_transmission_plugins
+[0.097s] -- The C compiler identification is GNU 13.3.0
+[0.165s] -- The CXX compiler identification is GNU 13.3.0
+[0.177s] -- Detecting C compiler ABI info
+[0.246s] -- Detecting C compiler ABI info - done
+[0.252s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.252s] -- Detecting C compile features
+[0.252s] -- Detecting C compile features - done
+[0.259s] -- Detecting CXX compiler ABI info
+[0.328s] -- Detecting CXX compiler ABI info - done
+[0.335s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.335s] -- Detecting CXX compile features
+[0.335s] -- Detecting CXX compile features - done
+[0.340s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.433s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.516s] -- Found hardware_interface: 4.44.0 (/opt/ros/jazzy/share/hardware_interface/cmake)
+[0.567s] -- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.578s] -- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.593s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.605s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.788s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[0.829s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.837s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.857s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[0.898s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[0.901s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[0.911s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[0.913s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[0.918s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[0.924s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.144s] -- Found transmission_interface: 4.44.0 (/opt/ros/jazzy/share/transmission_interface/cmake)
+[1.208s] -- Configuring done (1.2s)
+[1.231s] -- Generating done (0.0s)
+[1.234s] -- Build files have been written to: /home/kunalgarg/Desktop/3f_robotiq/build/robotiq_3f_transmission_plugins
+[1.242s] Invoked command in '/home/kunalgarg/Desktop/3f_robotiq/build/robotiq_3f_transmission_plugins' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/kunalgarg/Desktop/3f_robotiq/ws/src/ros2_robotiq_3f_gripper/robotiq_3f_transmission_plugins -DBUILD_TESTING=OFF -DCMAKE_INSTALL_PREFIX=/home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_transmission_plugins
+[1.243s] Invoking command in '/home/kunalgarg/Desktop/3f_robotiq/build/robotiq_3f_transmission_plugins': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/kunalgarg/Desktop/3f_robotiq/build/robotiq_3f_transmission_plugins -- -j24 -l24
+[1.283s] [ 66%] [32mBuilding CXX object CMakeFiles/individual_control_transmission.dir/src/individual_control_transmission.cpp.o[0m
+[1.283s] [ 66%] [32mBuilding CXX object CMakeFiles/individual_control_transmission.dir/src/individual_control_transmission_loader.cpp.o[0m
+[3.587s] [100%] [32m[1mLinking CXX shared library libindividual_control_transmission.so[0m
+[3.727s] [100%] Built target individual_control_transmission
+[3.737s] Invoked command in '/home/kunalgarg/Desktop/3f_robotiq/build/robotiq_3f_transmission_plugins' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/kunalgarg/Desktop/3f_robotiq/build/robotiq_3f_transmission_plugins -- -j24 -l24
+[3.738s] Invoking command in '/home/kunalgarg/Desktop/3f_robotiq/build/robotiq_3f_transmission_plugins': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/kunalgarg/Desktop/3f_robotiq/build/robotiq_3f_transmission_plugins
+[3.744s] -- Install configuration: ""
+[3.744s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_transmission_plugins/include
+[3.744s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_transmission_plugins/include/robotiq_3f_transmission_plugins
+[3.745s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_transmission_plugins/include/robotiq_3f_transmission_plugins/individual_control_transmission.hpp
+[3.745s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_transmission_plugins/include/robotiq_3f_transmission_plugins/individual_control_transmission_loader.hpp
+[3.745s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_transmission_plugins/lib/libindividual_control_transmission.so
+[3.745s] -- Set non-toolchain portion of runtime path of "/home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_transmission_plugins/lib/libindividual_control_transmission.so" to ""
+[3.745s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_transmission_plugins/share/robotiq_3f_transmission_plugins/transmission_plugins.xml
+[3.746s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_transmission_plugins/share/robotiq_3f_transmission_plugins/environment/library_path.sh
+[3.746s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_transmission_plugins/share/robotiq_3f_transmission_plugins/environment/library_path.dsv
+[3.746s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_transmission_plugins/share/ament_index/resource_index/package_run_dependencies/robotiq_3f_transmission_plugins
+[3.746s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_transmission_plugins/share/ament_index/resource_index/parent_prefix_path/robotiq_3f_transmission_plugins
+[3.746s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_transmission_plugins/share/robotiq_3f_transmission_plugins/environment/ament_prefix_path.sh
+[3.746s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_transmission_plugins/share/robotiq_3f_transmission_plugins/environment/ament_prefix_path.dsv
+[3.746s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_transmission_plugins/share/robotiq_3f_transmission_plugins/environment/path.sh
+[3.747s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_transmission_plugins/share/robotiq_3f_transmission_plugins/environment/path.dsv
+[3.747s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_transmission_plugins/share/robotiq_3f_transmission_plugins/local_setup.bash
+[3.747s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_transmission_plugins/share/robotiq_3f_transmission_plugins/local_setup.sh
+[3.747s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_transmission_plugins/share/robotiq_3f_transmission_plugins/local_setup.zsh
+[3.747s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_transmission_plugins/share/robotiq_3f_transmission_plugins/local_setup.dsv
+[3.747s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_transmission_plugins/share/robotiq_3f_transmission_plugins/package.dsv
+[3.747s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_transmission_plugins/share/ament_index/resource_index/packages/robotiq_3f_transmission_plugins
+[3.747s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_transmission_plugins/share/ament_index/resource_index/transmission_interface__pluginlib__plugin/robotiq_3f_transmission_plugins
+[3.748s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_transmission_plugins/share/robotiq_3f_transmission_plugins/cmake/export_individual_control_transmissionExport.cmake
+[3.748s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_transmission_plugins/share/robotiq_3f_transmission_plugins/cmake/export_individual_control_transmissionExport-noconfig.cmake
+[3.748s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_transmission_plugins/share/robotiq_3f_transmission_plugins/cmake/ament_cmake_export_include_directories-extras.cmake
+[3.748s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_transmission_plugins/share/robotiq_3f_transmission_plugins/cmake/ament_cmake_export_targets-extras.cmake
+[3.748s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_transmission_plugins/share/robotiq_3f_transmission_plugins/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.748s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_transmission_plugins/share/robotiq_3f_transmission_plugins/cmake/robotiq_3f_transmission_pluginsConfig.cmake
+[3.748s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_transmission_plugins/share/robotiq_3f_transmission_plugins/cmake/robotiq_3f_transmission_pluginsConfig-version.cmake
+[3.748s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_transmission_plugins/share/robotiq_3f_transmission_plugins/package.xml
+[3.749s] Invoked command in '/home/kunalgarg/Desktop/3f_robotiq/build/robotiq_3f_transmission_plugins' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/kunalgarg/Desktop/3f_robotiq/build/robotiq_3f_transmission_plugins

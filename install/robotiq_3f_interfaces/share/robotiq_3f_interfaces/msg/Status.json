@@ -1,0 +1,225 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "robotiq_3f_interfaces/msg/Status",
+      "fields": [
+        {
+          "name": "finger_a_object_detection",
+          "type": {
+            "type_id": 1,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": "robotiq_3f_interfaces/msg/ObjectDetectionStatus"
+          },
+          "default_value": ""
+        },
+        {
+          "name": "finger_b_object_detection",
+          "type": {
+            "type_id": 1,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": "robotiq_3f_interfaces/msg/ObjectDetectionStatus"
+          },
+          "default_value": ""
+        },
+        {
+          "name": "finger_c_object_detection",
+          "type": {
+            "type_id": 1,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": "robotiq_3f_interfaces/msg/ObjectDetectionStatus"
+          },
+          "default_value": ""
+        },
+        {
+          "name": "scissor_object_detection",
+          "type": {
+            "type_id": 1,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": "robotiq_3f_interfaces/msg/ObjectDetectionStatus"
+          },
+          "default_value": ""
+        },
+        {
+          "name": "finger_a_position",
+          "type": {
+            "type_id": 3,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        },
+        {
+          "name": "finger_b_position",
+          "type": {
+            "type_id": 3,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        },
+        {
+          "name": "finger_c_position",
+          "type": {
+            "type_id": 3,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        },
+        {
+          "name": "scissor_position",
+          "type": {
+            "type_id": 3,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        },
+        {
+          "name": "finger_a_current",
+          "type": {
+            "type_id": 3,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        },
+        {
+          "name": "finger_b_current",
+          "type": {
+            "type_id": 3,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        },
+        {
+          "name": "finger_c_current",
+          "type": {
+            "type_id": 3,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        },
+        {
+          "name": "scissor_current",
+          "type": {
+            "type_id": 3,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        },
+        {
+          "name": "finger_a_cmd_echo",
+          "type": {
+            "type_id": 3,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        },
+        {
+          "name": "finger_b_cmd_echo",
+          "type": {
+            "type_id": 3,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        },
+        {
+          "name": "finger_c_cmd_echo",
+          "type": {
+            "type_id": 3,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        },
+        {
+          "name": "scissor_cmd_echo",
+          "type": {
+            "type_id": 3,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        },
+        {
+          "name": "mode",
+          "type": {
+            "type_id": 1,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": "robotiq_3f_interfaces/msg/GraspingMode"
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": [
+      {
+        "type_name": "robotiq_3f_interfaces/msg/GraspingMode",
+        "fields": [
+          {
+            "name": "mode",
+            "type": {
+              "type_id": 2,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "robotiq_3f_interfaces/msg/ObjectDetectionStatus",
+        "fields": [
+          {
+            "name": "status",
+            "type": {
+              "type_id": 2,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          }
+        ]
+      }
+    ]
+  },
+  "type_hashes": [
+    {
+      "type_name": "robotiq_3f_interfaces/msg/Status",
+      "hash_string": "RIHS01_0708d7677e03a681811ebb99e26df6db3d6424b466139884d0541620ffd3000d"
+    },
+    {
+      "type_name": "robotiq_3f_interfaces/msg/GraspingMode",
+      "hash_string": "RIHS01_eea7ea1a0410a977b189d37a8f69ca497c9bc2a6385b3e3377e4cbe6d89aa75a"
+    },
+    {
+      "type_name": "robotiq_3f_interfaces/msg/ObjectDetectionStatus",
+      "hash_string": "RIHS01_543bdd1e36b8492d8064a7fe8af44083e98cdf061344d8951c3253dd8e29619f"
+    }
+  ]
+}

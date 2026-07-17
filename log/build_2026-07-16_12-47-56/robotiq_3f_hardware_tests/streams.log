@@ -1,0 +1,170 @@
+[0.013s] Invoking command in '/home/kunalgarg/Desktop/3f_robotiq/build/robotiq_3f_hardware_tests': AMENT_PREFIX_PATH=/home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_driver:/home/kunalgarg/Desktop/3f_robotiq/install/serial:/home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_transmission_plugins:/home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_driver:/home/kunalgarg/Desktop/3f_robotiq/install/serial:/home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_transmission_plugins:/home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_interfaces:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_driver/lib:/home/kunalgarg/Desktop/3f_robotiq/install/serial/lib:/home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_transmission_plugins/lib:/home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/kunalgarg/Desktop/3f_robotiq/ws/src/ros2_robotiq_3f_gripper/robotiq_3f_hardware_tests -DBUILD_TESTING=OFF -DCMAKE_INSTALL_PREFIX=/home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_hardware_tests
+[0.054s] -- The CXX compiler identification is GNU 13.3.0
+[0.063s] -- Detecting CXX compiler ABI info
+[0.133s] -- Detecting CXX compiler ABI info - done
+[0.137s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.137s] -- Detecting CXX compile features
+[0.137s] -- Detecting CXX compile features - done
+[0.139s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.229s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.310s] -- Found hardware_interface: 4.44.0 (/opt/ros/jazzy/share/hardware_interface/cmake)
+[0.349s] -- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.358s] -- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.369s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.381s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.508s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[0.538s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.541s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.557s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[0.602s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[0.604s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[0.616s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[0.618s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[0.623s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[0.634s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.829s] -- Found serial: 1.2.1 (/home/kunalgarg/Desktop/3f_robotiq/install/serial/share/serial/cmake)
+[0.830s] -- Found robotiq_3f_driver: 0.0.1 (/home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_driver/share/robotiq_3f_driver/cmake)
+[0.904s] -- Configuring done (0.9s)
+[0.938s] -- Generating done (0.0s)
+[0.946s] -- Build files have been written to: /home/kunalgarg/Desktop/3f_robotiq/build/robotiq_3f_hardware_tests
+[0.956s] Invoked command in '/home/kunalgarg/Desktop/3f_robotiq/build/robotiq_3f_hardware_tests' returned '0': AMENT_PREFIX_PATH=/home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_driver:/home/kunalgarg/Desktop/3f_robotiq/install/serial:/home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_transmission_plugins:/home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_driver:/home/kunalgarg/Desktop/3f_robotiq/install/serial:/home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_transmission_plugins:/home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_interfaces:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_driver/lib:/home/kunalgarg/Desktop/3f_robotiq/install/serial/lib:/home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_transmission_plugins/lib:/home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/kunalgarg/Desktop/3f_robotiq/ws/src/ros2_robotiq_3f_gripper/robotiq_3f_hardware_tests -DBUILD_TESTING=OFF -DCMAKE_INSTALL_PREFIX=/home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_hardware_tests
+[0.957s] Invoking command in '/home/kunalgarg/Desktop/3f_robotiq/build/robotiq_3f_hardware_tests': AMENT_PREFIX_PATH=/home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_driver:/home/kunalgarg/Desktop/3f_robotiq/install/serial:/home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_transmission_plugins:/home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_driver:/home/kunalgarg/Desktop/3f_robotiq/install/serial:/home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_transmission_plugins:/home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_interfaces:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_driver/lib:/home/kunalgarg/Desktop/3f_robotiq/install/serial/lib:/home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_transmission_plugins/lib:/home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/kunalgarg/Desktop/3f_robotiq/build/robotiq_3f_hardware_tests -- -j24 -l24
+[0.998s] [  5%] [32mBuilding CXX object CMakeFiles/grip.dir/src/grip.cpp.o[0m
+[0.998s] [ 22%] [32mBuilding CXX object CMakeFiles/get_status.dir/src/get_status.cpp.o[0m
+[0.998s] [ 22%] [32mBuilding CXX object CMakeFiles/activate.dir/src/activate.cpp.o[0m
+[0.998s] [ 22%] [32mBuilding CXX object CMakeFiles/activate.dir/src/command_line_utility.cpp.o[0m
+[1.000s] [ 50%] [32mBuilding CXX object CMakeFiles/release.dir/src/command_line_utility.cpp.o[0m
+[1.000s] [ 50%] [32mBuilding CXX object CMakeFiles/deactivate.dir/src/command_line_utility.cpp.o[0m
+[1.000s] [ 55%] [32mBuilding CXX object CMakeFiles/break.dir/src/command_line_utility.cpp.o[0m
+[1.000s] [ 55%] [32mBuilding CXX object CMakeFiles/grip.dir/src/command_line_utility.cpp.o[0m
+[1.000s] [ 55%] [32mBuilding CXX object CMakeFiles/get_status.dir/src/command_line_utility.cpp.o[0m
+[1.000s] [ 50%] [32mBuilding CXX object CMakeFiles/break.dir/src/break.cpp.o[0m
+[1.001s] [ 61%] [32mBuilding CXX object CMakeFiles/deactivate.dir/src/deactivate.cpp.o[0m
+[1.001s] [ 66%] [32mBuilding CXX object CMakeFiles/release.dir/src/release.cpp.o[0m
+[1.274s] In file included from [01m[K/usr/include/c++/13/memory:78[m[K,
+[1.274s]                  from [01m[K/home/kunalgarg/Desktop/3f_robotiq/ws/src/ros2_robotiq_3f_gripper/robotiq_3f_hardware_tests/src/activate.cpp:31[m[K:
+[1.274s] /usr/include/c++/13/bits/unique_ptr.h: In instantiation of ‘[01m[Kstd::__detail::__unique_ptr_t<_Tp> std::[01;32m[Kmake_unique[m[K(_Args&& ...) [35m[K[with _Tp = robotiq_3f_driver::DefaultDriver; _Args = {unique_ptr<robotiq_3f_driver::DefaultSerial, default_delete<robotiq_3f_driver::DefaultSerial> >}; __detail::__unique_ptr_t<_Tp> = __detail::__unique_ptr_t<robotiq_3f_driver::DefaultDriver>][m[K[m[K’:
+[1.274s] [01m[K/home/kunalgarg/Desktop/3f_robotiq/ws/src/ros2_robotiq_3f_gripper/robotiq_3f_hardware_tests/src/activate.cpp:94:50:[m[K   required from here
+[1.274s] [01m[K/usr/include/c++/13/bits/unique_ptr.h:1070:30:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Krobotiq_3f_driver::DefaultDriver::DefaultDriver(std::unique_ptr<robotiq_3f_driver::DefaultSerial, std::default_delete<robotiq_3f_driver::DefaultSerial> >)[m[K’
+[1.274s]  1070 |     { return unique_ptr<_Tp>([01;31m[Knew _Tp(std::forward<_Args>(__args)...)[m[K); }
+[1.275s]       |                              [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.275s] In file included from [01m[K/home/kunalgarg/Desktop/3f_robotiq/ws/src/ros2_robotiq_3f_gripper/robotiq_3f_hardware_tests/src/activate.cpp:34[m[K:
+[1.275s] [01m[K/home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_driver/include/robotiq_3f_driver/default_driver.hpp:38:12:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krobotiq_3f_driver::DefaultDriver::[01;32m[KDefaultDriver[m[K(std::string, uint16_t)[m[K’
+[1.275s]    38 |   explicit [01;36m[KDefaultDriver[m[K(std::string ip, uint16_t port = 502);
+[1.275s]       |            [01;36m[K^~~~~~~~~~~~~[m[K
+[1.275s] [01m[K/home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_driver/include/robotiq_3f_driver/default_driver.hpp:38:38:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::unique_ptr<robotiq_3f_driver::DefaultSerial, std::default_delete<robotiq_3f_driver::DefaultSerial> >[m[K’ to ‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’}
+[1.275s]    38 |   explicit DefaultDriver([01;36m[Kstd::string ip[m[K, uint16_t port = 502);
+[1.275s]       |                          [01;36m[K~~~~~~~~~~~~^~[m[K
+[1.275s] [01m[K/home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_driver/include/robotiq_3f_driver/default_driver.hpp:30:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krobotiq_3f_driver::DefaultDriver::[01;32m[KDefaultDriver[m[K(const robotiq_3f_driver::DefaultDriver&)[m[K’
+[1.275s]    30 | class [01;36m[KDefaultDriver[m[K : public Driver
+[1.275s]       |       [01;36m[K^~~~~~~~~~~~~[m[K
+[1.275s] [01m[K/home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_driver/include/robotiq_3f_driver/default_driver.hpp:30:7:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::unique_ptr<robotiq_3f_driver::DefaultSerial, std::default_delete<robotiq_3f_driver::DefaultSerial> >[m[K’ to ‘[01m[Kconst robotiq_3f_driver::DefaultDriver&[m[K’
+[1.280s] In file included from [01m[K/usr/include/c++/13/memory:78[m[K,
+[1.280s]                  from [01m[K/home/kunalgarg/Desktop/3f_robotiq/ws/src/ros2_robotiq_3f_gripper/robotiq_3f_hardware_tests/src/release.cpp:31[m[K:
+[1.280s] /usr/include/c++/13/bits/unique_ptr.h: In instantiation of ‘[01m[Kstd::__detail::__unique_ptr_t<_Tp> std::[01;32m[Kmake_unique[m[K(_Args&& ...) [35m[K[with _Tp = robotiq_3f_driver::DefaultDriver; _Args = {unique_ptr<robotiq_3f_driver::DefaultSerial, default_delete<robotiq_3f_driver::DefaultSerial> >}; __detail::__unique_ptr_t<_Tp> = __detail::__unique_ptr_t<robotiq_3f_driver::DefaultDriver>][m[K[m[K’:
+[1.280s] [01m[K/home/kunalgarg/Desktop/3f_robotiq/ws/src/ros2_robotiq_3f_gripper/robotiq_3f_hardware_tests/src/release.cpp:87:50:[m[K   required from here
+[1.280s] [01m[K/usr/include/c++/13/bits/unique_ptr.h:1070:30:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Krobotiq_3f_driver::DefaultDriver::DefaultDriver(std::unique_ptr<robotiq_3f_driver::DefaultSerial, std::default_delete<robotiq_3f_driver::DefaultSerial> >)[m[K’
+[1.280s]  1070 |     { return unique_ptr<_Tp>([01;31m[Knew _Tp(std::forward<_Args>(__args)...)[m[K); }
+[1.280s]       |                              [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.280s] In file included from [01m[K/home/kunalgarg/Desktop/3f_robotiq/ws/src/ros2_robotiq_3f_gripper/robotiq_3f_hardware_tests/src/release.cpp:34[m[K:
+[1.280s] [01m[K/home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_driver/include/robotiq_3f_driver/default_driver.hpp:38:12:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krobotiq_3f_driver::DefaultDriver::[01;32m[KDefaultDriver[m[K(std::string, uint16_t)[m[K’
+[1.280s]    38 |   explicit [01;36m[KDefaultDriver[m[K(std::string ip, uint16_t port = 502);
+[1.280s]       |            [01;36m[K^~~~~~~~~~~~~[m[K
+[1.280s] [01m[K/home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_driver/include/robotiq_3f_driver/default_driver.hpp:38:38:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::unique_ptr<robotiq_3f_driver::DefaultSerial, std::default_delete<robotiq_3f_driver::DefaultSerial> >[m[K’ to ‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’}
+[1.280s]    38 |   explicit DefaultDriver([01;36m[Kstd::string ip[m[K, uint16_t port = 502);
+[1.280s]       |                          [01;36m[K~~~~~~~~~~~~^~[m[K
+[1.280s] [01m[K/home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_driver/include/robotiq_3f_driver/default_driver.hpp:30:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krobotiq_3f_driver::DefaultDriver::[01;32m[KDefaultDriver[m[K(const robotiq_3f_driver::DefaultDriver&)[m[K’
+[1.281s]    30 | class [01;36m[KDefaultDriver[m[K : public Driver
+[1.281s]       |       [01;36m[K^~~~~~~~~~~~~[m[K
+[1.281s] [01m[K/home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_driver/include/robotiq_3f_driver/default_driver.hpp:30:7:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::unique_ptr<robotiq_3f_driver::DefaultSerial, std::default_delete<robotiq_3f_driver::DefaultSerial> >[m[K’ to ‘[01m[Kconst robotiq_3f_driver::DefaultDriver&[m[K’
+[1.297s] In file included from [01m[K/usr/include/c++/13/memory:78[m[K,
+[1.297s]                  from [01m[K/home/kunalgarg/Desktop/3f_robotiq/ws/src/ros2_robotiq_3f_gripper/robotiq_3f_hardware_tests/src/break.cpp:31[m[K:
+[1.297s] /usr/include/c++/13/bits/unique_ptr.h: In instantiation of ‘[01m[Kstd::__detail::__unique_ptr_t<_Tp> std::[01;32m[Kmake_unique[m[K(_Args&& ...) [35m[K[with _Tp = robotiq_3f_driver::DefaultDriver; _Args = {unique_ptr<robotiq_3f_driver::DefaultSerial, default_delete<robotiq_3f_driver::DefaultSerial> >}; __detail::__unique_ptr_t<_Tp> = __detail::__unique_ptr_t<robotiq_3f_driver::DefaultDriver>][m[K[m[K’:
+[1.297s] [01m[K/home/kunalgarg/Desktop/3f_robotiq/ws/src/ros2_robotiq_3f_gripper/robotiq_3f_hardware_tests/src/break.cpp:89:50:[m[K   required from here
+[1.297s] [01m[K/usr/include/c++/13/bits/unique_ptr.h:1070:30:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Krobotiq_3f_driver::DefaultDriver::DefaultDriver(std::unique_ptr<robotiq_3f_driver::DefaultSerial, std::default_delete<robotiq_3f_driver::DefaultSerial> >)[m[K’
+[1.297s]  1070 |     { return unique_ptr<_Tp>([01;31m[Knew _Tp(std::forward<_Args>(__args)...)[m[K); }
+[1.297s]       |                              [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.297s] In file included from [01m[K/home/kunalgarg/Desktop/3f_robotiq/ws/src/ros2_robotiq_3f_gripper/robotiq_3f_hardware_tests/src/break.cpp:34[m[K:
+[1.297s] [01m[K/home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_driver/include/robotiq_3f_driver/default_driver.hpp:38:12:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krobotiq_3f_driver::DefaultDriver::[01;32m[KDefaultDriver[m[K(std::string, uint16_t)[m[K’
+[1.297s]    38 |   explicit [01;36m[KDefaultDriver[m[K(std::string ip, uint16_t port = 502);
+[1.297s]       |            [01;36m[K^~~~~~~~~~~~~[m[K
+[1.297s] [01m[K/home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_driver/include/robotiq_3f_driver/default_driver.hpp:38:38:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::unique_ptr<robotiq_3f_driver::DefaultSerial, std::default_delete<robotiq_3f_driver::DefaultSerial> >[m[K’ to ‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’}
+[1.297s]    38 |   explicit DefaultDriver([01;36m[Kstd::string ip[m[K, uint16_t port = 502);
+[1.297s]       |                          [01;36m[K~~~~~~~~~~~~^~[m[K
+[1.298s] [01m[K/home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_driver/include/robotiq_3f_driver/default_driver.hpp:30:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krobotiq_3f_driver::DefaultDriver::[01;32m[KDefaultDriver[m[K(const robotiq_3f_driver::DefaultDriver&)[m[K’
+[1.298s]    30 | class [01;36m[KDefaultDriver[m[K : public Driver
+[1.298s]       |       [01;36m[K^~~~~~~~~~~~~[m[K
+[1.298s] [01m[K/home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_driver/include/robotiq_3f_driver/default_driver.hpp:30:7:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::unique_ptr<robotiq_3f_driver::DefaultSerial, std::default_delete<robotiq_3f_driver::DefaultSerial> >[m[K’ to ‘[01m[Kconst robotiq_3f_driver::DefaultDriver&[m[K’
+[1.306s] gmake[2]: *** [CMakeFiles/activate.dir/build.make:76: CMakeFiles/activate.dir/src/activate.cpp.o] Error 1
+[1.306s] gmake[2]: *** Waiting for unfinished jobs....
+[1.313s] gmake[2]: *** [CMakeFiles/release.dir/build.make:76: CMakeFiles/release.dir/src/release.cpp.o] Error 1
+[1.313s] gmake[2]: *** Waiting for unfinished jobs....
+[1.331s] gmake[2]: *** [CMakeFiles/break.dir/build.make:76: CMakeFiles/break.dir/src/break.cpp.o] Error 1
+[1.331s] gmake[2]: *** Waiting for unfinished jobs....
+[1.332s] In file included from [01m[K/usr/include/c++/13/memory:78[m[K,
+[1.332s]                  from [01m[K/home/kunalgarg/Desktop/3f_robotiq/ws/src/ros2_robotiq_3f_gripper/robotiq_3f_hardware_tests/src/get_status.cpp:31[m[K:
+[1.332s] /usr/include/c++/13/bits/unique_ptr.h: In instantiation of ‘[01m[Kstd::__detail::__unique_ptr_t<_Tp> std::[01;32m[Kmake_unique[m[K(_Args&& ...) [35m[K[with _Tp = robotiq_3f_driver::DefaultDriver; _Args = {unique_ptr<robotiq_3f_driver::DefaultSerial, default_delete<robotiq_3f_driver::DefaultSerial> >}; __detail::__unique_ptr_t<_Tp> = __detail::__unique_ptr_t<robotiq_3f_driver::DefaultDriver>][m[K[m[K’:
+[1.332s] [01m[K/home/kunalgarg/Desktop/3f_robotiq/ws/src/ros2_robotiq_3f_gripper/robotiq_3f_hardware_tests/src/get_status.cpp:88:50:[m[K   required from here
+[1.332s] [01m[K/usr/include/c++/13/bits/unique_ptr.h:1070:30:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Krobotiq_3f_driver::DefaultDriver::DefaultDriver(std::unique_ptr<robotiq_3f_driver::DefaultSerial, std::default_delete<robotiq_3f_driver::DefaultSerial> >)[m[K’
+[1.332s]  1070 |     { return unique_ptr<_Tp>([01;31m[Knew _Tp(std::forward<_Args>(__args)...)[m[K); }
+[1.332s]       |                              [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.332s] In file included from [01m[K/home/kunalgarg/Desktop/3f_robotiq/ws/src/ros2_robotiq_3f_gripper/robotiq_3f_hardware_tests/src/get_status.cpp:34[m[K:
+[1.332s] [01m[K/home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_driver/include/robotiq_3f_driver/default_driver.hpp:38:12:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krobotiq_3f_driver::DefaultDriver::[01;32m[KDefaultDriver[m[K(std::string, uint16_t)[m[K’
+[1.332s]    38 |   explicit [01;36m[KDefaultDriver[m[K(std::string ip, uint16_t port = 502);
+[1.332s]       |            [01;36m[K^~~~~~~~~~~~~[m[K
+[1.332s] [01m[K/home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_driver/include/robotiq_3f_driver/default_driver.hpp:38:38:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::unique_ptr<robotiq_3f_driver::DefaultSerial, std::default_delete<robotiq_3f_driver::DefaultSerial> >[m[K’ to ‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’}
+[1.333s]    38 |   explicit DefaultDriver([01;36m[Kstd::string ip[m[K, uint16_t port = 502);
+[1.333s]       |                          [01;36m[K~~~~~~~~~~~~^~[m[K
+[1.333s] [01m[K/home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_driver/include/robotiq_3f_driver/default_driver.hpp:30:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krobotiq_3f_driver::DefaultDriver::[01;32m[KDefaultDriver[m[K(const robotiq_3f_driver::DefaultDriver&)[m[K’
+[1.333s]    30 | class [01;36m[KDefaultDriver[m[K : public Driver
+[1.333s]       |       [01;36m[K^~~~~~~~~~~~~[m[K
+[1.333s] [01m[K/home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_driver/include/robotiq_3f_driver/default_driver.hpp:30:7:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::unique_ptr<robotiq_3f_driver::DefaultSerial, std::default_delete<robotiq_3f_driver::DefaultSerial> >[m[K’ to ‘[01m[Kconst robotiq_3f_driver::DefaultDriver&[m[K’
+[1.337s] In file included from [01m[K/usr/include/c++/13/memory:78[m[K,
+[1.337s]                  from [01m[K/home/kunalgarg/Desktop/3f_robotiq/ws/src/ros2_robotiq_3f_gripper/robotiq_3f_hardware_tests/src/deactivate.cpp:31[m[K:
+[1.337s] /usr/include/c++/13/bits/unique_ptr.h: In instantiation of ‘[01m[Kstd::__detail::__unique_ptr_t<_Tp> std::[01;32m[Kmake_unique[m[K(_Args&& ...) [35m[K[with _Tp = robotiq_3f_driver::DefaultDriver; _Args = {unique_ptr<robotiq_3f_driver::DefaultSerial, default_delete<robotiq_3f_driver::DefaultSerial> >}; __detail::__unique_ptr_t<_Tp> = __detail::__unique_ptr_t<robotiq_3f_driver::DefaultDriver>][m[K[m[K’:
+[1.337s] [01m[K/home/kunalgarg/Desktop/3f_robotiq/ws/src/ros2_robotiq_3f_gripper/robotiq_3f_hardware_tests/src/deactivate.cpp:90:50:[m[K   required from here
+[1.338s] [01m[K/usr/include/c++/13/bits/unique_ptr.h:1070:30:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Krobotiq_3f_driver::DefaultDriver::DefaultDriver(std::unique_ptr<robotiq_3f_driver::DefaultSerial, std::default_delete<robotiq_3f_driver::DefaultSerial> >)[m[K’
+[1.338s]  1070 |     { return unique_ptr<_Tp>([01;31m[Knew _Tp(std::forward<_Args>(__args)...)[m[K); }
+[1.338s]       |                              [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.338s] In file included from [01m[K/home/kunalgarg/Desktop/3f_robotiq/ws/src/ros2_robotiq_3f_gripper/robotiq_3f_hardware_tests/src/deactivate.cpp:34[m[K:
+[1.338s] [01m[K/home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_driver/include/robotiq_3f_driver/default_driver.hpp:38:12:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krobotiq_3f_driver::DefaultDriver::[01;32m[KDefaultDriver[m[K(std::string, uint16_t)[m[K’
+[1.338s]    38 |   explicit [01;36m[KDefaultDriver[m[K(std::string ip, uint16_t port = 502);
+[1.338s]       |            [01;36m[K^~~~~~~~~~~~~[m[K
+[1.338s] [01m[K/home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_driver/include/robotiq_3f_driver/default_driver.hpp:38:38:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::unique_ptr<robotiq_3f_driver::DefaultSerial, std::default_delete<robotiq_3f_driver::DefaultSerial> >[m[K’ to ‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’}
+[1.338s]    38 |   explicit DefaultDriver([01;36m[Kstd::string ip[m[K, uint16_t port = 502);
+[1.338s]       |                          [01;36m[K~~~~~~~~~~~~^~[m[K
+[1.338s] [01m[K/home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_driver/include/robotiq_3f_driver/default_driver.hpp:30:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krobotiq_3f_driver::DefaultDriver::[01;32m[KDefaultDriver[m[K(const robotiq_3f_driver::DefaultDriver&)[m[K’
+[1.338s]    30 | class [01;36m[KDefaultDriver[m[K : public Driver
+[1.338s]       |       [01;36m[K^~~~~~~~~~~~~[m[K
+[1.338s] [01m[K/home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_driver/include/robotiq_3f_driver/default_driver.hpp:30:7:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::unique_ptr<robotiq_3f_driver::DefaultSerial, std::default_delete<robotiq_3f_driver::DefaultSerial> >[m[K’ to ‘[01m[Kconst robotiq_3f_driver::DefaultDriver&[m[K’
+[1.341s] gmake[1]: *** [CMakeFiles/Makefile2:147: CMakeFiles/activate.dir/all] Error 2
+[1.341s] gmake[1]: *** Waiting for unfinished jobs....
+[1.344s] In file included from [01m[K/usr/include/c++/13/memory:78[m[K,
+[1.344s]                  from [01m[K/home/kunalgarg/Desktop/3f_robotiq/ws/src/ros2_robotiq_3f_gripper/robotiq_3f_hardware_tests/src/grip.cpp:31[m[K:
+[1.344s] /usr/include/c++/13/bits/unique_ptr.h: In instantiation of ‘[01m[Kstd::__detail::__unique_ptr_t<_Tp> std::[01;32m[Kmake_unique[m[K(_Args&& ...) [35m[K[with _Tp = robotiq_3f_driver::DefaultDriver; _Args = {unique_ptr<robotiq_3f_driver::DefaultSerial, default_delete<robotiq_3f_driver::DefaultSerial> >}; __detail::__unique_ptr_t<_Tp> = __detail::__unique_ptr_t<robotiq_3f_driver::DefaultDriver>][m[K[m[K’:
+[1.344s] [01m[K/home/kunalgarg/Desktop/3f_robotiq/ws/src/ros2_robotiq_3f_gripper/robotiq_3f_hardware_tests/src/grip.cpp:95:50:[m[K   required from here
+[1.344s] [01m[K/usr/include/c++/13/bits/unique_ptr.h:1070:30:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Krobotiq_3f_driver::DefaultDriver::DefaultDriver(std::unique_ptr<robotiq_3f_driver::DefaultSerial, std::default_delete<robotiq_3f_driver::DefaultSerial> >)[m[K’
+[1.345s]  1070 |     { return unique_ptr<_Tp>([01;31m[Knew _Tp(std::forward<_Args>(__args)...)[m[K); }
+[1.345s]       |                              [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.345s] In file included from [01m[K/home/kunalgarg/Desktop/3f_robotiq/ws/src/ros2_robotiq_3f_gripper/robotiq_3f_hardware_tests/src/grip.cpp:34[m[K:
+[1.345s] [01m[K/home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_driver/include/robotiq_3f_driver/default_driver.hpp:38:12:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krobotiq_3f_driver::DefaultDriver::[01;32m[KDefaultDriver[m[K(std::string, uint16_t)[m[K’
+[1.345s]    38 |   explicit [01;36m[KDefaultDriver[m[K(std::string ip, uint16_t port = 502);
+[1.345s]       |            [01;36m[K^~~~~~~~~~~~~[m[K
+[1.345s] [01m[K/home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_driver/include/robotiq_3f_driver/default_driver.hpp:38:38:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::unique_ptr<robotiq_3f_driver::DefaultSerial, std::default_delete<robotiq_3f_driver::DefaultSerial> >[m[K’ to ‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’}
+[1.345s]    38 |   explicit DefaultDriver([01;36m[Kstd::string ip[m[K, uint16_t port = 502);
+[1.345s]       |                          [01;36m[K~~~~~~~~~~~~^~[m[K
+[1.345s] [01m[K/home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_driver/include/robotiq_3f_driver/default_driver.hpp:30:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krobotiq_3f_driver::DefaultDriver::[01;32m[KDefaultDriver[m[K(const robotiq_3f_driver::DefaultDriver&)[m[K’
+[1.345s]    30 | class [01;36m[KDefaultDriver[m[K : public Driver
+[1.345s]       |       [01;36m[K^~~~~~~~~~~~~[m[K
+[1.345s] [01m[K/home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_driver/include/robotiq_3f_driver/default_driver.hpp:30:7:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::unique_ptr<robotiq_3f_driver::DefaultSerial, std::default_delete<robotiq_3f_driver::DefaultSerial> >[m[K’ to ‘[01m[Kconst robotiq_3f_driver::DefaultDriver&[m[K’
+[1.362s] gmake[1]: *** [CMakeFiles/Makefile2:277: CMakeFiles/break.dir/all] Error 2
+[1.363s] gmake[1]: *** [CMakeFiles/Makefile2:251: CMakeFiles/release.dir/all] Error 2
+[1.365s] gmake[2]: *** [CMakeFiles/get_status.dir/build.make:76: CMakeFiles/get_status.dir/src/get_status.cpp.o] Error 1
+[1.365s] gmake[2]: *** Waiting for unfinished jobs....
+[1.369s] gmake[2]: *** [CMakeFiles/deactivate.dir/build.make:76: CMakeFiles/deactivate.dir/src/deactivate.cpp.o] Error 1
+[1.369s] gmake[1]: *** [CMakeFiles/Makefile2:173: CMakeFiles/deactivate.dir/all] Error 2
+[1.378s] gmake[2]: *** [CMakeFiles/grip.dir/build.make:76: CMakeFiles/grip.dir/src/grip.cpp.o] Error 1
+[1.378s] gmake[1]: *** [CMakeFiles/Makefile2:225: CMakeFiles/grip.dir/all] Error 2
+[1.412s] gmake[1]: *** [CMakeFiles/Makefile2:199: CMakeFiles/get_status.dir/all] Error 2
+[1.412s] gmake: *** [Makefile:146: all] Error 2
+[1.414s] Invoked command in '/home/kunalgarg/Desktop/3f_robotiq/build/robotiq_3f_hardware_tests' returned '2': AMENT_PREFIX_PATH=/home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_driver:/home/kunalgarg/Desktop/3f_robotiq/install/serial:/home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_transmission_plugins:/home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_driver:/home/kunalgarg/Desktop/3f_robotiq/install/serial:/home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_transmission_plugins:/home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_interfaces:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_driver/lib:/home/kunalgarg/Desktop/3f_robotiq/install/serial/lib:/home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_transmission_plugins/lib:/home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/kunalgarg/Desktop/3f_robotiq/build/robotiq_3f_hardware_tests -- -j24 -l24

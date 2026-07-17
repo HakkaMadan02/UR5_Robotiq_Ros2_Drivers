@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<robot name="ur5_robotiq_3f" xmlns:xacro="http://ros.org/wiki/xacro">
+
+  <xacro:include filename="$(find ur_description)/urdf/ur.urdf.xacro"/>
+  <xacro:include filename="$(find robotiq_3f_description)/urdf/robotiq_3f_gripper_macro.xacro"/>
+
+  <xacro:arg name="name" default="ur5_robotiq_3f"/>
+  <xacro:arg name="ur_type" default="ur5"/>
+  <xacro:arg name="tf_prefix" default=""/>
+  <xacro:arg name="joint_limit_params" default="$(find ur_description)/config/$(arg ur_type)/joint_limits.yaml"/>
+  <xacro:arg name="kinematics_params" default="$(find ur_description)/config/$(arg ur_type)/default_kinematics.yaml"/>
+  <xacro:arg name="physical_params" default="$(find ur_description)/config/$(arg ur_type)/physical_parameters.yaml"/>
+  <xacro:arg name="visual_params" default="$(find ur_description)/config/$(arg ur_type)/visual_parameters.yaml"/>
+
+  <xacro:ur_robot
+    name="$(arg name)"
+    tf_prefix="$(arg tf_prefix)"
+    joint_limit_params="$(arg joint_limit_params)"
+    kinematics_params="$(arg kinematics_params)"
+    physical_params="$(arg physical_params)"
+    visual_params="$(arg visual_params)"/>
+
+</robot>

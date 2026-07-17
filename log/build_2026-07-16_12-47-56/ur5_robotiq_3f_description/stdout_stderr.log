@@ -1,0 +1,37 @@
+-- The C compiler identification is GNU 13.3.0
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Configuring done (0.5s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/kunalgarg/Desktop/3f_robotiq/build/ur5_robotiq_3f_description
+-- Install configuration: ""
+-- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/ur5_robotiq_3f_description/share/ur5_robotiq_3f_description/launch
+-- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/ur5_robotiq_3f_description/share/ur5_robotiq_3f_description/launch/visualize.launch.py
+-- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/ur5_robotiq_3f_description/share/ur5_robotiq_3f_description/urdf
+-- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/ur5_robotiq_3f_description/share/ur5_robotiq_3f_description/urdf/ur5_robotiq_3f.urdf.xacro
+-- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/ur5_robotiq_3f_description/share/ament_index/resource_index/package_run_dependencies/ur5_robotiq_3f_description
+-- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/ur5_robotiq_3f_description/share/ament_index/resource_index/parent_prefix_path/ur5_robotiq_3f_description
+-- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/ur5_robotiq_3f_description/share/ur5_robotiq_3f_description/environment/ament_prefix_path.sh
+-- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/ur5_robotiq_3f_description/share/ur5_robotiq_3f_description/environment/ament_prefix_path.dsv
+-- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/ur5_robotiq_3f_description/share/ur5_robotiq_3f_description/environment/path.sh
+-- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/ur5_robotiq_3f_description/share/ur5_robotiq_3f_description/environment/path.dsv
+-- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/ur5_robotiq_3f_description/share/ur5_robotiq_3f_description/local_setup.bash
+-- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/ur5_robotiq_3f_description/share/ur5_robotiq_3f_description/local_setup.sh
+-- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/ur5_robotiq_3f_description/share/ur5_robotiq_3f_description/local_setup.zsh
+-- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/ur5_robotiq_3f_description/share/ur5_robotiq_3f_description/local_setup.dsv
+-- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/ur5_robotiq_3f_description/share/ur5_robotiq_3f_description/package.dsv
+-- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/ur5_robotiq_3f_description/share/ament_index/resource_index/packages/ur5_robotiq_3f_description
+-- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/ur5_robotiq_3f_description/share/ur5_robotiq_3f_description/cmake/ur5_robotiq_3f_descriptionConfig.cmake
+-- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/ur5_robotiq_3f_description/share/ur5_robotiq_3f_description/cmake/ur5_robotiq_3f_descriptionConfig-version.cmake
+-- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/ur5_robotiq_3f_description/share/ur5_robotiq_3f_description/package.xml

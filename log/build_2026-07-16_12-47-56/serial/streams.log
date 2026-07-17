@@ -1,0 +1,51 @@
+[0.007s] Invoking command in '/home/kunalgarg/Desktop/3f_robotiq/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/kunalgarg/Desktop/3f_robotiq/ws/src/serial -DBUILD_TESTING=OFF -DCMAKE_INSTALL_PREFIX=/home/kunalgarg/Desktop/3f_robotiq/install/serial
+[0.095s] -- The C compiler identification is GNU 13.3.0
+[0.163s] -- The CXX compiler identification is GNU 13.3.0
+[0.176s] -- Detecting C compiler ABI info
+[0.244s] -- Detecting C compiler ABI info - done
+[0.250s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.250s] -- Detecting C compile features
+[0.251s] -- Detecting C compile features - done
+[0.259s] -- Detecting CXX compiler ABI info
+[0.326s] -- Detecting CXX compiler ABI info - done
+[0.332s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.332s] -- Detecting CXX compile features
+[0.332s] -- Detecting CXX compile features - done
+[0.338s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.431s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.573s] -- Configuring done (0.6s)
+[0.577s] -- Generating done (0.0s)
+[0.578s] -- Build files have been written to: /home/kunalgarg/Desktop/3f_robotiq/build/serial
+[0.582s] Invoked command in '/home/kunalgarg/Desktop/3f_robotiq/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/kunalgarg/Desktop/3f_robotiq/ws/src/serial -DBUILD_TESTING=OFF -DCMAKE_INSTALL_PREFIX=/home/kunalgarg/Desktop/3f_robotiq/install/serial
+[0.582s] Invoking command in '/home/kunalgarg/Desktop/3f_robotiq/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/kunalgarg/Desktop/3f_robotiq/build/serial -- -j24 -l24
+[0.619s] [ 75%] [32mBuilding CXX object CMakeFiles/serial.dir/src/impl/list_ports/list_ports_linux.cc.o[0m
+[0.619s] [ 75%] [32mBuilding CXX object CMakeFiles/serial.dir/src/serial.cc.o[0m
+[0.620s] [ 75%] [32mBuilding CXX object CMakeFiles/serial.dir/src/impl/unix.cc.o[0m
+[0.854s] [100%] [32m[1mLinking CXX static library libserial.a[0m
+[0.946s] [100%] Built target serial
+[0.955s] Invoked command in '/home/kunalgarg/Desktop/3f_robotiq/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/kunalgarg/Desktop/3f_robotiq/build/serial -- -j24 -l24
+[0.956s] Invoking command in '/home/kunalgarg/Desktop/3f_robotiq/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/kunalgarg/Desktop/3f_robotiq/build/serial
+[0.963s] -- Install configuration: ""
+[0.963s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/serial/share/serial/environment/library_path.sh
+[0.963s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/serial/share/serial/environment/library_path.dsv
+[0.963s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/serial/lib/libserial.a
+[0.963s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/serial/include/serial/serial.h
+[0.963s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/serial/include/serial/v8stdint.h
+[0.963s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/serial/share/ament_index/resource_index/package_run_dependencies/serial
+[0.963s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/serial/share/ament_index/resource_index/parent_prefix_path/serial
+[0.964s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/serial/share/serial/environment/ament_prefix_path.sh
+[0.964s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/serial/share/serial/environment/ament_prefix_path.dsv
+[0.964s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/serial/share/serial/environment/path.sh
+[0.964s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/serial/share/serial/environment/path.dsv
+[0.964s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/serial/share/serial/local_setup.bash
+[0.964s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/serial/share/serial/local_setup.sh
+[0.964s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/serial/share/serial/local_setup.zsh
+[0.964s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/serial/share/serial/local_setup.dsv
+[0.964s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/serial/share/serial/package.dsv
+[0.964s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/serial/share/ament_index/resource_index/packages/serial
+[0.964s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/serial/share/serial/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.965s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/serial/share/serial/cmake/ament_cmake_export_libraries-extras.cmake
+[0.965s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/serial/share/serial/cmake/serialConfig.cmake
+[0.965s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/serial/share/serial/cmake/serialConfig-version.cmake
+[0.965s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/serial/share/serial/package.xml
+[0.966s] Invoked command in '/home/kunalgarg/Desktop/3f_robotiq/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/kunalgarg/Desktop/3f_robotiq/build/serial

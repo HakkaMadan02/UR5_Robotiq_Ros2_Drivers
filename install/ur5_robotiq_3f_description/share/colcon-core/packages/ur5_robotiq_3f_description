@@ -1,0 +1,1 @@
+joint_state_publisher:launch:launch_ros:robot_state_publisher:robotiq_3f_description:rviz2:ur_description:xacro

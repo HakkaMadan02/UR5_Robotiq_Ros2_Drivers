@@ -1,0 +1,221 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "robotiq_3f_interfaces/srv/ChangeGraspingMode",
+      "fields": [
+        {
+          "name": "request_message",
+          "type": {
+            "type_id": 1,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": "robotiq_3f_interfaces/srv/ChangeGraspingMode_Request"
+          },
+          "default_value": ""
+        },
+        {
+          "name": "response_message",
+          "type": {
+            "type_id": 1,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": "robotiq_3f_interfaces/srv/ChangeGraspingMode_Response"
+          },
+          "default_value": ""
+        },
+        {
+          "name": "event_message",
+          "type": {
+            "type_id": 1,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": "robotiq_3f_interfaces/srv/ChangeGraspingMode_Event"
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": [
+      {
+        "type_name": "builtin_interfaces/msg/Time",
+        "fields": [
+          {
+            "name": "sec",
+            "type": {
+              "type_id": 6,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "nanosec",
+            "type": {
+              "type_id": 7,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "robotiq_3f_interfaces/msg/GraspingMode",
+        "fields": [
+          {
+            "name": "mode",
+            "type": {
+              "type_id": 2,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "robotiq_3f_interfaces/srv/ChangeGraspingMode_Event",
+        "fields": [
+          {
+            "name": "info",
+            "type": {
+              "type_id": 1,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "service_msgs/msg/ServiceEventInfo"
+            },
+            "default_value": ""
+          },
+          {
+            "name": "request",
+            "type": {
+              "type_id": 97,
+              "capacity": 1,
+              "string_capacity": 0,
+              "nested_type_name": "robotiq_3f_interfaces/srv/ChangeGraspingMode_Request"
+            },
+            "default_value": ""
+          },
+          {
+            "name": "response",
+            "type": {
+              "type_id": 97,
+              "capacity": 1,
+              "string_capacity": 0,
+              "nested_type_name": "robotiq_3f_interfaces/srv/ChangeGraspingMode_Response"
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "robotiq_3f_interfaces/srv/ChangeGraspingMode_Request",
+        "fields": [
+          {
+            "name": "mode",
+            "type": {
+              "type_id": 1,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "robotiq_3f_interfaces/msg/GraspingMode"
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "robotiq_3f_interfaces/srv/ChangeGraspingMode_Response",
+        "fields": [
+          {
+            "name": "success",
+            "type": {
+              "type_id": 15,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "service_msgs/msg/ServiceEventInfo",
+        "fields": [
+          {
+            "name": "event_type",
+            "type": {
+              "type_id": 3,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "stamp",
+            "type": {
+              "type_id": 1,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "builtin_interfaces/msg/Time"
+            },
+            "default_value": ""
+          },
+          {
+            "name": "client_gid",
+            "type": {
+              "type_id": 51,
+              "capacity": 16,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "sequence_number",
+            "type": {
+              "type_id": 8,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          }
+        ]
+      }
+    ]
+  },
+  "type_hashes": [
+    {
+      "type_name": "robotiq_3f_interfaces/srv/ChangeGraspingMode",
+      "hash_string": "RIHS01_44d53bd40265d156a145f89c955f17f34aa46e76edd276d42f9f194e274c2300"
+    },
+    {
+      "type_name": "builtin_interfaces/msg/Time",
+      "hash_string": "RIHS01_b106235e25a4c5ed35098aa0a61a3ee9c9b18d197f398b0e4206cea9acf9c197"
+    },
+    {
+      "type_name": "robotiq_3f_interfaces/msg/GraspingMode",
+      "hash_string": "RIHS01_eea7ea1a0410a977b189d37a8f69ca497c9bc2a6385b3e3377e4cbe6d89aa75a"
+    },
+    {
+      "type_name": "robotiq_3f_interfaces/srv/ChangeGraspingMode_Event",
+      "hash_string": "RIHS01_eab0cebc886660d014774ede5d27ce2ef2284c6bedea9c517d6530a60aaa020f"
+    },
+    {
+      "type_name": "robotiq_3f_interfaces/srv/ChangeGraspingMode_Request",
+      "hash_string": "RIHS01_c870a4ff32c38abe34788cee33fde1b6b7c7964a7610db02218ae74b27a13191"
+    },
+    {
+      "type_name": "robotiq_3f_interfaces/srv/ChangeGraspingMode_Response",
+      "hash_string": "RIHS01_3a788ebf62f2a1cd6b6830b476c1c6e808a05ce2384109c154892d2fc9610ac0"
+    },
+    {
+      "type_name": "service_msgs/msg/ServiceEventInfo",
+      "hash_string": "RIHS01_41bcbbe07a75c9b52bc96bfd5c24d7f0fc0a08c0cb7921b3373c5732345a6f45"
+    }
+  ]
+}

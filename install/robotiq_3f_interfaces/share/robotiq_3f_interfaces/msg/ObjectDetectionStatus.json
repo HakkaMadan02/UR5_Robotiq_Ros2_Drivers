@@ -1,0 +1,26 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "robotiq_3f_interfaces/msg/ObjectDetectionStatus",
+      "fields": [
+        {
+          "name": "status",
+          "type": {
+            "type_id": 2,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "robotiq_3f_interfaces/msg/ObjectDetectionStatus",
+      "hash_string": "RIHS01_543bdd1e36b8492d8064a7fe8af44083e98cdf061344d8951c3253dd8e29619f"
+    }
+  ]
+}

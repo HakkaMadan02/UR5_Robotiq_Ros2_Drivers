@@ -1,0 +1,429 @@
+[0.010s] Invoking command in '/home/kunalgarg/Desktop/3f_robotiq/build/robotiq_3f_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/kunalgarg/Desktop/3f_robotiq/ws/src/ros2_robotiq_3f_gripper/robotiq_3f_interfaces -DBUILD_TESTING=OFF -DCMAKE_INSTALL_PREFIX=/home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_interfaces
+[0.101s] -- The C compiler identification is GNU 13.3.0
+[0.169s] -- The CXX compiler identification is GNU 13.3.0
+[0.181s] -- Detecting C compiler ABI info
+[0.251s] -- Detecting C compiler ABI info - done
+[0.256s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.256s] -- Detecting C compile features
+[0.256s] -- Detecting C compile features - done
+[0.264s] -- Detecting CXX compiler ABI info
+[0.333s] -- Detecting CXX compiler ABI info - done
+[0.339s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.339s] -- Detecting CXX compile features
+[0.340s] -- Detecting CXX compile features - done
+[0.343s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.436s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.522s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[0.532s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.587s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.634s] -- Found rosidl_adapter: 4.6.7 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[0.638s] -- Found std_msgs: 5.3.7 (/opt/ros/jazzy/share/std_msgs/cmake)
+[1.072s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[1.370s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.765s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.769s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[1.854s] -- Found PythonExtra: /usr/bin/python3  
+[2.139s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[2.201s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[2.208s] -- Configuring done (2.2s)
+[2.237s] -- Generating done (0.0s)
+[2.244s] -- Build files have been written to: /home/kunalgarg/Desktop/3f_robotiq/build/robotiq_3f_interfaces
+[2.253s] Invoked command in '/home/kunalgarg/Desktop/3f_robotiq/build/robotiq_3f_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/kunalgarg/Desktop/3f_robotiq/ws/src/ros2_robotiq_3f_gripper/robotiq_3f_interfaces -DBUILD_TESTING=OFF -DCMAKE_INSTALL_PREFIX=/home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_interfaces
+[2.253s] Invoking command in '/home/kunalgarg/Desktop/3f_robotiq/build/robotiq_3f_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/kunalgarg/Desktop/3f_robotiq/build/robotiq_3f_interfaces -- -j24 -l24
+[2.294s] [  1%] [34m[1mGenerating Rust code for ROS interfaces[0m
+[2.294s] [  2%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[2.300s] [  2%] Built target ament_cmake_python_copy_robotiq_3f_interfaces
+[2.419s] running egg_info
+[2.420s] creating robotiq_3f_interfaces.egg-info
+[2.429s] writing robotiq_3f_interfaces.egg-info/PKG-INFO
+[2.429s] writing dependency_links to robotiq_3f_interfaces.egg-info/dependency_links.txt
+[2.429s] writing top-level names to robotiq_3f_interfaces.egg-info/top_level.txt
+[2.429s] writing manifest file 'robotiq_3f_interfaces.egg-info/SOURCES.txt'
+[2.458s] [  2%] Built target robotiq_3f_interfaces__rosidl_generator_type_description
+[2.458s] reading manifest file 'robotiq_3f_interfaces.egg-info/SOURCES.txt'
+[2.459s] writing manifest file 'robotiq_3f_interfaces.egg-info/SOURCES.txt'
+[2.467s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[2.475s] [  4%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[2.477s] [  4%] Built target ament_cmake_python_build_robotiq_3f_interfaces_egg
+[2.483s] [  4%] Built target robotiq_3f_interfaces__rs
+[2.742s] [  4%] Built target robotiq_3f_interfaces__cpp
+[2.777s] [  5%] [32mBuilding C object CMakeFiles/robotiq_3f_interfaces__rosidl_generator_c.dir/rosidl_generator_c/robotiq_3f_interfaces/msg/detail/object_detection_status__description.c.o[0m
+[2.778s] [  9%] [32mBuilding C object CMakeFiles/robotiq_3f_interfaces__rosidl_generator_c.dir/rosidl_generator_c/robotiq_3f_interfaces/msg/detail/object_detection_status__functions.c.o[0m
+[2.778s] [  9%] [32mBuilding C object CMakeFiles/robotiq_3f_interfaces__rosidl_generator_c.dir/rosidl_generator_c/robotiq_3f_interfaces/msg/detail/object_detection_status__type_support.c.o[0m
+[2.778s] [  9%] [32mBuilding C object CMakeFiles/robotiq_3f_interfaces__rosidl_generator_c.dir/rosidl_generator_c/robotiq_3f_interfaces/msg/detail/status__description.c.o[0m
+[2.778s] [ 10%] [32mBuilding C object CMakeFiles/robotiq_3f_interfaces__rosidl_generator_c.dir/rosidl_generator_c/robotiq_3f_interfaces/msg/detail/grasping_mode__functions.c.o[0m
+[2.778s] [ 11%] [32mBuilding C object CMakeFiles/robotiq_3f_interfaces__rosidl_generator_c.dir/rosidl_generator_c/robotiq_3f_interfaces/msg/detail/status__functions.c.o[0m
+[2.779s] [ 14%] [32mBuilding C object CMakeFiles/robotiq_3f_interfaces__rosidl_generator_c.dir/rosidl_generator_c/robotiq_3f_interfaces/msg/detail/status__type_support.c.o[0m
+[2.779s] [ 14%] [32mBuilding C object CMakeFiles/robotiq_3f_interfaces__rosidl_generator_c.dir/rosidl_generator_c/robotiq_3f_interfaces/msg/detail/grasping_mode__description.c.o[0m
+[2.779s] [ 15%] [32mBuilding C object CMakeFiles/robotiq_3f_interfaces__rosidl_generator_c.dir/rosidl_generator_c/robotiq_3f_interfaces/msg/detail/simple_control_command__functions.c.o[0m
+[2.779s] [ 17%] [32mBuilding C object CMakeFiles/robotiq_3f_interfaces__rosidl_generator_c.dir/rosidl_generator_c/robotiq_3f_interfaces/msg/detail/independent_control_command__functions.c.o[0m
+[2.779s] [ 17%] [32mBuilding C object CMakeFiles/robotiq_3f_interfaces__rosidl_generator_c.dir/rosidl_generator_c/robotiq_3f_interfaces/msg/detail/simple_control_command__description.c.o[0m
+[2.780s] [ 18%] [32mBuilding C object CMakeFiles/robotiq_3f_interfaces__rosidl_generator_c.dir/rosidl_generator_c/robotiq_3f_interfaces/msg/detail/grasping_mode__type_support.c.o[0m
+[2.780s] [ 20%] [32mBuilding C object CMakeFiles/robotiq_3f_interfaces__rosidl_generator_c.dir/rosidl_generator_c/robotiq_3f_interfaces/msg/detail/independent_control_command__description.c.o[0m
+[2.780s] [ 21%] [32mBuilding C object CMakeFiles/robotiq_3f_interfaces__rosidl_generator_c.dir/rosidl_generator_c/robotiq_3f_interfaces/msg/detail/simple_control_command__type_support.c.o[0m
+[2.781s] [ 23%] [32mBuilding C object CMakeFiles/robotiq_3f_interfaces__rosidl_generator_c.dir/rosidl_generator_c/robotiq_3f_interfaces/srv/detail/change_grasping_mode__description.c.o[0m
+[2.781s] [ 23%] [32mBuilding C object CMakeFiles/robotiq_3f_interfaces__rosidl_generator_c.dir/rosidl_generator_c/robotiq_3f_interfaces/msg/detail/independent_control_command__type_support.c.o[0m
+[2.784s] [ 25%] [32mBuilding C object CMakeFiles/robotiq_3f_interfaces__rosidl_generator_c.dir/rosidl_generator_c/robotiq_3f_interfaces/srv/detail/change_grasping_mode__type_support.c.o[0m
+[2.784s] [ 25%] [32mBuilding C object CMakeFiles/robotiq_3f_interfaces__rosidl_generator_c.dir/rosidl_generator_c/robotiq_3f_interfaces/srv/detail/change_grasping_mode__functions.c.o[0m
+[2.835s] [ 27%] [32m[1mLinking C shared library librobotiq_3f_interfaces__rosidl_generator_c.so[0m
+[2.866s] [ 27%] Built target robotiq_3f_interfaces__rosidl_generator_c
+[2.875s] [ 32%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[2.876s] [ 32%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[2.876s] [ 32%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[2.876s] [ 32%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[2.876s] [ 32%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[2.876s] [ 34%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[3.072s] [ 35%] [32mBuilding CXX object CMakeFiles/robotiq_3f_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/robotiq_3f_interfaces/msg/grasping_mode__type_support.cpp.o[0m
+[3.073s] [ 36%] [32mBuilding CXX object CMakeFiles/robotiq_3f_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/robotiq_3f_interfaces/msg/object_detection_status__type_support.cpp.o[0m
+[3.076s] [ 38%] [32mBuilding CXX object CMakeFiles/robotiq_3f_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/robotiq_3f_interfaces/msg/simple_control_command__type_support.cpp.o[0m
+[3.076s] [ 38%] [32mBuilding CXX object CMakeFiles/robotiq_3f_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/robotiq_3f_interfaces/msg/status__type_support.cpp.o[0m
+[3.076s] [ 40%] [32mBuilding CXX object CMakeFiles/robotiq_3f_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/robotiq_3f_interfaces/msg/independent_control_command__type_support.cpp.o[0m
+[3.079s] [ 41%] [32mBuilding CXX object CMakeFiles/robotiq_3f_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/robotiq_3f_interfaces/srv/change_grasping_mode__type_support.cpp.o[0m
+[3.080s] [ 44%] [32mBuilding CXX object CMakeFiles/robotiq_3f_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/robotiq_3f_interfaces/msg/grasping_mode__type_support.cpp.o[0m
+[3.080s] [ 44%] [32mBuilding CXX object CMakeFiles/robotiq_3f_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/robotiq_3f_interfaces/msg/simple_control_command__type_support.cpp.o[0m
+[3.080s] [ 44%] [32mBuilding CXX object CMakeFiles/robotiq_3f_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/robotiq_3f_interfaces/msg/status__type_support.cpp.o[0m
+[3.080s] [ 45%] [32mBuilding CXX object CMakeFiles/robotiq_3f_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/robotiq_3f_interfaces/msg/object_detection_status__type_support.cpp.o[0m
+[3.081s] [ 47%] [32mBuilding CXX object CMakeFiles/robotiq_3f_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/robotiq_3f_interfaces/msg/independent_control_command__type_support.cpp.o[0m
+[3.084s] [ 48%] [32mBuilding CXX object CMakeFiles/robotiq_3f_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/robotiq_3f_interfaces/srv/change_grasping_mode__type_support.cpp.o[0m
+[3.089s] [ 49%] [32mBuilding CXX object CMakeFiles/robotiq_3f_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/robotiq_3f_interfaces/msg/detail/status__type_support.cpp.o[0m
+[3.090s] [ 50%] [32mBuilding CXX object CMakeFiles/robotiq_3f_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/robotiq_3f_interfaces/msg/detail/object_detection_status__type_support.cpp.o[0m
+[3.092s] [ 51%] [32mBuilding CXX object CMakeFiles/robotiq_3f_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/robotiq_3f_interfaces/msg/detail/grasping_mode__type_support.cpp.o[0m
+[3.095s] [ 52%] [32mBuilding CXX object CMakeFiles/robotiq_3f_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/robotiq_3f_interfaces/msg/detail/simple_control_command__type_support.cpp.o[0m
+[3.099s] [ 54%] [32mBuilding CXX object CMakeFiles/robotiq_3f_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/robotiq_3f_interfaces/msg/detail/independent_control_command__type_support.cpp.o[0m
+[3.108s] [ 55%] [32mBuilding CXX object CMakeFiles/robotiq_3f_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/robotiq_3f_interfaces/srv/detail/change_grasping_mode__type_support.cpp.o[0m
+[3.127s] [ 56%] [32mBuilding C object CMakeFiles/robotiq_3f_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/robotiq_3f_interfaces/msg/detail/object_detection_status__type_support.c.o[0m
+[3.132s] [ 57%] [32m[1mLinking CXX shared library librobotiq_3f_interfaces__rosidl_typesupport_c.so[0m
+[3.137s] [ 58%] [32mBuilding C object CMakeFiles/robotiq_3f_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/robotiq_3f_interfaces/msg/detail/status__type_support.c.o[0m
+[3.137s] [ 60%] [32mBuilding C object CMakeFiles/robotiq_3f_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/robotiq_3f_interfaces/msg/detail/simple_control_command__type_support.c.o[0m
+[3.137s] [ 61%] [32mBuilding C object CMakeFiles/robotiq_3f_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/robotiq_3f_interfaces/msg/detail/grasping_mode__type_support.c.o[0m
+[3.139s] [ 62%] [32mBuilding C object CMakeFiles/robotiq_3f_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/robotiq_3f_interfaces/msg/detail/independent_control_command__type_support.c.o[0m
+[3.149s] [ 63%] [32mBuilding C object CMakeFiles/robotiq_3f_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/robotiq_3f_interfaces/srv/detail/change_grasping_mode__type_support.c.o[0m
+[3.167s] [ 64%] [32mBuilding CXX object CMakeFiles/robotiq_3f_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/robotiq_3f_interfaces/msg/detail/dds_fastrtps/object_detection_status__type_support.cpp.o[0m
+[3.167s] [ 65%] [32mBuilding CXX object CMakeFiles/robotiq_3f_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/robotiq_3f_interfaces/msg/detail/dds_fastrtps/status__type_support.cpp.o[0m
+[3.168s] [ 67%] [32mBuilding CXX object CMakeFiles/robotiq_3f_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/robotiq_3f_interfaces/msg/detail/dds_fastrtps/grasping_mode__type_support.cpp.o[0m
+[3.177s] [ 68%] [32mBuilding CXX object CMakeFiles/robotiq_3f_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/robotiq_3f_interfaces/msg/detail/dds_fastrtps/independent_control_command__type_support.cpp.o[0m
+[3.179s] [ 68%] Built target robotiq_3f_interfaces__rosidl_typesupport_c
+[3.181s] [ 69%] [32mBuilding CXX object CMakeFiles/robotiq_3f_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/robotiq_3f_interfaces/srv/detail/dds_fastrtps/change_grasping_mode__type_support.cpp.o[0m
+[3.185s] [ 70%] [32mBuilding CXX object CMakeFiles/robotiq_3f_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/robotiq_3f_interfaces/msg/detail/dds_fastrtps/simple_control_command__type_support.cpp.o[0m
+[3.189s] [ 71%] [32m[1mLinking C shared library librobotiq_3f_interfaces__rosidl_typesupport_introspection_c.so[0m
+[3.198s] [ 72%] [32mBuilding CXX object CMakeFiles/robotiq_3f_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/robotiq_3f_interfaces/msg/detail/object_detection_status__type_support_c.cpp.o[0m
+[3.203s] [ 74%] [32mBuilding CXX object CMakeFiles/robotiq_3f_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/robotiq_3f_interfaces/msg/detail/independent_control_command__type_support_c.cpp.o[0m
+[3.203s] [ 75%] [32mBuilding CXX object CMakeFiles/robotiq_3f_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/robotiq_3f_interfaces/msg/detail/status__type_support_c.cpp.o[0m
+[3.204s] [ 76%] [32mBuilding CXX object CMakeFiles/robotiq_3f_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/robotiq_3f_interfaces/msg/detail/grasping_mode__type_support_c.cpp.o[0m
+[3.205s] [ 77%] [32mBuilding CXX object CMakeFiles/robotiq_3f_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/robotiq_3f_interfaces/msg/detail/simple_control_command__type_support_c.cpp.o[0m
+[3.228s] [ 77%] Built target robotiq_3f_interfaces__rosidl_typesupport_introspection_c
+[3.236s] [ 78%] [32mBuilding CXX object CMakeFiles/robotiq_3f_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/robotiq_3f_interfaces/srv/detail/change_grasping_mode__type_support_c.cpp.o[0m
+[3.361s] [ 80%] [32m[1mLinking CXX shared library librobotiq_3f_interfaces__rosidl_typesupport_cpp.so[0m
+[3.379s] [ 81%] [32m[1mLinking CXX shared library librobotiq_3f_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[3.423s] [ 81%] Built target robotiq_3f_interfaces__rosidl_typesupport_cpp
+[3.440s] [ 81%] Built target robotiq_3f_interfaces__rosidl_typesupport_introspection_cpp
+[3.493s] [ 82%] [32m[1mLinking CXX shared library librobotiq_3f_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[3.510s] [ 83%] [32m[1mLinking CXX shared library librobotiq_3f_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[3.546s] [ 83%] Built target robotiq_3f_interfaces__rosidl_typesupport_fastrtps_c
+[3.546s] [ 83%] Built target robotiq_3f_interfaces__rosidl_typesupport_fastrtps_cpp
+[3.562s] [ 83%] Built target robotiq_3f_interfaces
+[3.578s] [ 84%] [34m[1mGenerating Python code for ROS interfaces[0m
+[3.973s] [ 84%] Built target robotiq_3f_interfaces__py
+[3.989s] [ 89%] [32mBuilding C object CMakeFiles/robotiq_3f_interfaces__rosidl_generator_py.dir/rosidl_generator_py/robotiq_3f_interfaces/msg/_grasping_mode_s.c.o[0m
+[3.989s] [ 89%] [32mBuilding C object CMakeFiles/robotiq_3f_interfaces__rosidl_generator_py.dir/rosidl_generator_py/robotiq_3f_interfaces/msg/_status_s.c.o[0m
+[3.989s] [ 89%] [32mBuilding C object CMakeFiles/robotiq_3f_interfaces__rosidl_generator_py.dir/rosidl_generator_py/robotiq_3f_interfaces/msg/_simple_control_command_s.c.o[0m
+[3.990s] [ 91%] [32mBuilding C object CMakeFiles/robotiq_3f_interfaces__rosidl_generator_py.dir/rosidl_generator_py/robotiq_3f_interfaces/msg/_independent_control_command_s.c.o[0m
+[3.990s] [ 91%] [32mBuilding C object CMakeFiles/robotiq_3f_interfaces__rosidl_generator_py.dir/rosidl_generator_py/robotiq_3f_interfaces/srv/_change_grasping_mode_s.c.o[0m
+[3.990s] [ 89%] [32mBuilding C object CMakeFiles/robotiq_3f_interfaces__rosidl_generator_py.dir/rosidl_generator_py/robotiq_3f_interfaces/msg/_object_detection_status_s.c.o[0m
+[4.079s] [ 92%] [32m[1mLinking C shared library librobotiq_3f_interfaces__rosidl_generator_py.so[0m
+[4.112s] [ 92%] Built target robotiq_3f_interfaces__rosidl_generator_py
+[4.129s] [ 96%] [32mBuilding C object CMakeFiles/robotiq_3f_interfaces_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/robotiq_3f_interfaces/_robotiq_3f_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[4.129s] [ 96%] [32mBuilding C object CMakeFiles/robotiq_3f_interfaces_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/robotiq_3f_interfaces/_robotiq_3f_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[4.129s] [ 96%] [32mBuilding C object CMakeFiles/robotiq_3f_interfaces_s__rosidl_typesupport_c.dir/rosidl_generator_py/robotiq_3f_interfaces/_robotiq_3f_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[4.197s] [ 98%] [32m[1mLinking C shared module rosidl_generator_py/robotiq_3f_interfaces/robotiq_3f_interfaces_s__rosidl_typesupport_introspection_c.so[0m
+[4.197s] [ 98%] [32m[1mLinking C shared module rosidl_generator_py/robotiq_3f_interfaces/robotiq_3f_interfaces_s__rosidl_typesupport_fastrtps_c.so[0m
+[4.198s] [100%] [32m[1mLinking C shared module rosidl_generator_py/robotiq_3f_interfaces/robotiq_3f_interfaces_s__rosidl_typesupport_c.so[0m
+[4.220s] [100%] Built target robotiq_3f_interfaces_s__rosidl_typesupport_fastrtps_c
+[4.220s] [100%] Built target robotiq_3f_interfaces_s__rosidl_typesupport_introspection_c
+[4.221s] [100%] Built target robotiq_3f_interfaces_s__rosidl_typesupport_c
+[4.230s] Invoked command in '/home/kunalgarg/Desktop/3f_robotiq/build/robotiq_3f_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/kunalgarg/Desktop/3f_robotiq/build/robotiq_3f_interfaces -- -j24 -l24
+[4.231s] Invoking command in '/home/kunalgarg/Desktop/3f_robotiq/build/robotiq_3f_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/kunalgarg/Desktop/3f_robotiq/build/robotiq_3f_interfaces
+[4.237s] -- Install configuration: ""
+[4.237s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_interfaces/share/ament_index/resource_index/rosidl_interfaces/robotiq_3f_interfaces
+[4.237s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_interfaces/share/robotiq_3f_interfaces/msg/ObjectDetectionStatus.json
+[4.238s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_interfaces/share/robotiq_3f_interfaces/msg/Status.json
+[4.238s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_interfaces/share/robotiq_3f_interfaces/msg/GraspingMode.json
+[4.238s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_interfaces/share/robotiq_3f_interfaces/msg/SimpleControlCommand.json
+[4.238s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_interfaces/share/robotiq_3f_interfaces/msg/IndependentControlCommand.json
+[4.238s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_interfaces/share/robotiq_3f_interfaces/srv/ChangeGraspingMode.json
+[4.238s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_interfaces/include/robotiq_3f_interfaces/robotiq_3f_interfaces
+[4.238s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_interfaces/include/robotiq_3f_interfaces/robotiq_3f_interfaces/msg
+[4.238s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_interfaces/include/robotiq_3f_interfaces/robotiq_3f_interfaces/msg/grasping_mode.h
+[4.238s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_interfaces/include/robotiq_3f_interfaces/robotiq_3f_interfaces/msg/status.h
+[4.239s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_interfaces/include/robotiq_3f_interfaces/robotiq_3f_interfaces/msg/object_detection_status.h
+[4.239s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_interfaces/include/robotiq_3f_interfaces/robotiq_3f_interfaces/msg/rosidl_generator_c__visibility_control.h
+[4.239s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_interfaces/include/robotiq_3f_interfaces/robotiq_3f_interfaces/msg/detail
+[4.239s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_interfaces/include/robotiq_3f_interfaces/robotiq_3f_interfaces/msg/detail/grasping_mode__description.c
+[4.239s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_interfaces/include/robotiq_3f_interfaces/robotiq_3f_interfaces/msg/detail/object_detection_status__functions.c
+[4.239s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_interfaces/include/robotiq_3f_interfaces/robotiq_3f_interfaces/msg/detail/independent_control_command__functions.h
+[4.239s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_interfaces/include/robotiq_3f_interfaces/robotiq_3f_interfaces/msg/detail/independent_control_command__functions.c
+[4.239s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_interfaces/include/robotiq_3f_interfaces/robotiq_3f_interfaces/msg/detail/grasping_mode__struct.h
+[4.239s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_interfaces/include/robotiq_3f_interfaces/robotiq_3f_interfaces/msg/detail/status__type_support.c
+[4.239s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_interfaces/include/robotiq_3f_interfaces/robotiq_3f_interfaces/msg/detail/grasping_mode__type_support.c
+[4.239s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_interfaces/include/robotiq_3f_interfaces/robotiq_3f_interfaces/msg/detail/object_detection_status__struct.h
+[4.239s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_interfaces/include/robotiq_3f_interfaces/robotiq_3f_interfaces/msg/detail/simple_control_command__description.c
+[4.239s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_interfaces/include/robotiq_3f_interfaces/robotiq_3f_interfaces/msg/detail/object_detection_status__type_support.c
+[4.239s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_interfaces/include/robotiq_3f_interfaces/robotiq_3f_interfaces/msg/detail/grasping_mode__functions.c
+[4.239s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_interfaces/include/robotiq_3f_interfaces/robotiq_3f_interfaces/msg/detail/object_detection_status__description.c
+[4.239s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_interfaces/include/robotiq_3f_interfaces/robotiq_3f_interfaces/msg/detail/independent_control_command__struct.h
+[4.239s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_interfaces/include/robotiq_3f_interfaces/robotiq_3f_interfaces/msg/detail/simple_control_command__type_support.h
+[4.239s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_interfaces/include/robotiq_3f_interfaces/robotiq_3f_interfaces/msg/detail/grasping_mode__functions.h
+[4.239s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_interfaces/include/robotiq_3f_interfaces/robotiq_3f_interfaces/msg/detail/object_detection_status__functions.h
+[4.239s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_interfaces/include/robotiq_3f_interfaces/robotiq_3f_interfaces/msg/detail/status__description.c
+[4.240s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_interfaces/include/robotiq_3f_interfaces/robotiq_3f_interfaces/msg/detail/independent_control_command__type_support.c
+[4.240s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_interfaces/include/robotiq_3f_interfaces/robotiq_3f_interfaces/msg/detail/independent_control_command__description.c
+[4.240s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_interfaces/include/robotiq_3f_interfaces/robotiq_3f_interfaces/msg/detail/simple_control_command__functions.c
+[4.240s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_interfaces/include/robotiq_3f_interfaces/robotiq_3f_interfaces/msg/detail/simple_control_command__functions.h
+[4.240s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_interfaces/include/robotiq_3f_interfaces/robotiq_3f_interfaces/msg/detail/simple_control_command__struct.h
+[4.240s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_interfaces/include/robotiq_3f_interfaces/robotiq_3f_interfaces/msg/detail/simple_control_command__type_support.c
+[4.240s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_interfaces/include/robotiq_3f_interfaces/robotiq_3f_interfaces/msg/detail/status__functions.h
+[4.240s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_interfaces/include/robotiq_3f_interfaces/robotiq_3f_interfaces/msg/detail/grasping_mode__type_support.h
+[4.240s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_interfaces/include/robotiq_3f_interfaces/robotiq_3f_interfaces/msg/detail/independent_control_command__type_support.h
+[4.240s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_interfaces/include/robotiq_3f_interfaces/robotiq_3f_interfaces/msg/detail/object_detection_status__type_support.h
+[4.240s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_interfaces/include/robotiq_3f_interfaces/robotiq_3f_interfaces/msg/detail/status__struct.h
+[4.240s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_interfaces/include/robotiq_3f_interfaces/robotiq_3f_interfaces/msg/detail/status__functions.c
+[4.240s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_interfaces/include/robotiq_3f_interfaces/robotiq_3f_interfaces/msg/detail/status__type_support.h
+[4.241s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_interfaces/include/robotiq_3f_interfaces/robotiq_3f_interfaces/msg/simple_control_command.h
+[4.241s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_interfaces/include/robotiq_3f_interfaces/robotiq_3f_interfaces/msg/independent_control_command.h
+[4.241s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_interfaces/include/robotiq_3f_interfaces/robotiq_3f_interfaces/srv
+[4.241s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_interfaces/include/robotiq_3f_interfaces/robotiq_3f_interfaces/srv/change_grasping_mode.h
+[4.241s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_interfaces/include/robotiq_3f_interfaces/robotiq_3f_interfaces/srv/detail
+[4.241s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_interfaces/include/robotiq_3f_interfaces/robotiq_3f_interfaces/srv/detail/change_grasping_mode__functions.h
+[4.241s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_interfaces/include/robotiq_3f_interfaces/robotiq_3f_interfaces/srv/detail/change_grasping_mode__type_support.c
+[4.241s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_interfaces/include/robotiq_3f_interfaces/robotiq_3f_interfaces/srv/detail/change_grasping_mode__description.c
+[4.241s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_interfaces/include/robotiq_3f_interfaces/robotiq_3f_interfaces/srv/detail/change_grasping_mode__type_support.h
+[4.241s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_interfaces/include/robotiq_3f_interfaces/robotiq_3f_interfaces/srv/detail/change_grasping_mode__struct.h
+[4.241s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_interfaces/include/robotiq_3f_interfaces/robotiq_3f_interfaces/srv/detail/change_grasping_mode__functions.c
+[4.241s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_interfaces/share/robotiq_3f_interfaces/environment/library_path.sh
+[4.241s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_interfaces/share/robotiq_3f_interfaces/environment/library_path.dsv
+[4.242s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_interfaces/lib/librobotiq_3f_interfaces__rosidl_generator_c.so
+[4.243s] -- Set non-toolchain portion of runtime path of "/home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_interfaces/lib/librobotiq_3f_interfaces__rosidl_generator_c.so" to ""
+[4.243s] -- Up-to-date: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_interfaces/include/robotiq_3f_interfaces/robotiq_3f_interfaces
+[4.243s] -- Up-to-date: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_interfaces/include/robotiq_3f_interfaces/robotiq_3f_interfaces/msg
+[4.243s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_interfaces/include/robotiq_3f_interfaces/robotiq_3f_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[4.243s] -- Up-to-date: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_interfaces/include/robotiq_3f_interfaces/robotiq_3f_interfaces/msg/detail
+[4.243s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_interfaces/include/robotiq_3f_interfaces/robotiq_3f_interfaces/msg/detail/status__rosidl_typesupport_fastrtps_c.h
+[4.243s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_interfaces/include/robotiq_3f_interfaces/robotiq_3f_interfaces/msg/detail/simple_control_command__rosidl_typesupport_fastrtps_c.h
+[4.243s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_interfaces/include/robotiq_3f_interfaces/robotiq_3f_interfaces/msg/detail/object_detection_status__rosidl_typesupport_fastrtps_c.h
+[4.244s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_interfaces/include/robotiq_3f_interfaces/robotiq_3f_interfaces/msg/detail/independent_control_command__rosidl_typesupport_fastrtps_c.h
+[4.244s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_interfaces/include/robotiq_3f_interfaces/robotiq_3f_interfaces/msg/detail/grasping_mode__rosidl_typesupport_fastrtps_c.h
+[4.244s] -- Up-to-date: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_interfaces/include/robotiq_3f_interfaces/robotiq_3f_interfaces/srv
+[4.244s] -- Up-to-date: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_interfaces/include/robotiq_3f_interfaces/robotiq_3f_interfaces/srv/detail
+[4.244s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_interfaces/include/robotiq_3f_interfaces/robotiq_3f_interfaces/srv/detail/change_grasping_mode__rosidl_typesupport_fastrtps_c.h
+[4.244s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_interfaces/lib/librobotiq_3f_interfaces__rosidl_typesupport_fastrtps_c.so
+[4.244s] -- Set non-toolchain portion of runtime path of "/home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_interfaces/lib/librobotiq_3f_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[4.244s] -- Up-to-date: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_interfaces/include/robotiq_3f_interfaces/robotiq_3f_interfaces
+[4.244s] -- Up-to-date: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_interfaces/include/robotiq_3f_interfaces/robotiq_3f_interfaces/msg
+[4.244s] -- Up-to-date: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_interfaces/include/robotiq_3f_interfaces/robotiq_3f_interfaces/msg/detail
+[4.244s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_interfaces/include/robotiq_3f_interfaces/robotiq_3f_interfaces/msg/detail/simple_control_command__rosidl_typesupport_introspection_c.h
+[4.244s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_interfaces/include/robotiq_3f_interfaces/robotiq_3f_interfaces/msg/detail/status__type_support.c
+[4.244s] -- Up-to-date: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_interfaces/include/robotiq_3f_interfaces/robotiq_3f_interfaces/msg/detail/grasping_mode__type_support.c
+[4.244s] -- Up-to-date: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_interfaces/include/robotiq_3f_interfaces/robotiq_3f_interfaces/msg/detail/object_detection_status__type_support.c
+[4.244s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_interfaces/include/robotiq_3f_interfaces/robotiq_3f_interfaces/msg/detail/independent_control_command__rosidl_typesupport_introspection_c.h
+[4.244s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_interfaces/include/robotiq_3f_interfaces/robotiq_3f_interfaces/msg/detail/object_detection_status__rosidl_typesupport_introspection_c.h
+[4.244s] -- Up-to-date: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_interfaces/include/robotiq_3f_interfaces/robotiq_3f_interfaces/msg/detail/independent_control_command__type_support.c
+[4.244s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_interfaces/include/robotiq_3f_interfaces/robotiq_3f_interfaces/msg/detail/grasping_mode__rosidl_typesupport_introspection_c.h
+[4.244s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_interfaces/include/robotiq_3f_interfaces/robotiq_3f_interfaces/msg/detail/status__rosidl_typesupport_introspection_c.h
+[4.244s] -- Up-to-date: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_interfaces/include/robotiq_3f_interfaces/robotiq_3f_interfaces/msg/detail/simple_control_command__type_support.c
+[4.244s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_interfaces/include/robotiq_3f_interfaces/robotiq_3f_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[4.244s] -- Up-to-date: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_interfaces/include/robotiq_3f_interfaces/robotiq_3f_interfaces/srv
+[4.244s] -- Up-to-date: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_interfaces/include/robotiq_3f_interfaces/robotiq_3f_interfaces/srv/detail
+[4.245s] -- Up-to-date: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_interfaces/include/robotiq_3f_interfaces/robotiq_3f_interfaces/srv/detail/change_grasping_mode__type_support.c
+[4.245s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_interfaces/include/robotiq_3f_interfaces/robotiq_3f_interfaces/srv/detail/change_grasping_mode__rosidl_typesupport_introspection_c.h
+[4.245s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_interfaces/lib/librobotiq_3f_interfaces__rosidl_typesupport_introspection_c.so
+[4.245s] -- Set non-toolchain portion of runtime path of "/home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_interfaces/lib/librobotiq_3f_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[4.245s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_interfaces/lib/librobotiq_3f_interfaces__rosidl_typesupport_c.so
+[4.245s] -- Set non-toolchain portion of runtime path of "/home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_interfaces/lib/librobotiq_3f_interfaces__rosidl_typesupport_c.so" to ""
+[4.245s] -- Up-to-date: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_interfaces/include/robotiq_3f_interfaces/robotiq_3f_interfaces
+[4.245s] -- Up-to-date: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_interfaces/include/robotiq_3f_interfaces/robotiq_3f_interfaces/msg
+[4.245s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_interfaces/include/robotiq_3f_interfaces/robotiq_3f_interfaces/msg/simple_control_command.hpp
+[4.245s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_interfaces/include/robotiq_3f_interfaces/robotiq_3f_interfaces/msg/independent_control_command.hpp
+[4.245s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_interfaces/include/robotiq_3f_interfaces/robotiq_3f_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[4.245s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_interfaces/include/robotiq_3f_interfaces/robotiq_3f_interfaces/msg/status.hpp
+[4.245s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_interfaces/include/robotiq_3f_interfaces/robotiq_3f_interfaces/msg/object_detection_status.hpp
+[4.245s] -- Up-to-date: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_interfaces/include/robotiq_3f_interfaces/robotiq_3f_interfaces/msg/detail
+[4.245s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_interfaces/include/robotiq_3f_interfaces/robotiq_3f_interfaces/msg/detail/object_detection_status__builder.hpp
+[4.245s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_interfaces/include/robotiq_3f_interfaces/robotiq_3f_interfaces/msg/detail/independent_control_command__builder.hpp
+[4.245s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_interfaces/include/robotiq_3f_interfaces/robotiq_3f_interfaces/msg/detail/object_detection_status__traits.hpp
+[4.245s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_interfaces/include/robotiq_3f_interfaces/robotiq_3f_interfaces/msg/detail/simple_control_command__type_support.hpp
+[4.245s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_interfaces/include/robotiq_3f_interfaces/robotiq_3f_interfaces/msg/detail/object_detection_status__type_support.hpp
+[4.245s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_interfaces/include/robotiq_3f_interfaces/robotiq_3f_interfaces/msg/detail/status__builder.hpp
+[4.245s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_interfaces/include/robotiq_3f_interfaces/robotiq_3f_interfaces/msg/detail/status__struct.hpp
+[4.245s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_interfaces/include/robotiq_3f_interfaces/robotiq_3f_interfaces/msg/detail/simple_control_command__traits.hpp
+[4.246s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_interfaces/include/robotiq_3f_interfaces/robotiq_3f_interfaces/msg/detail/grasping_mode__builder.hpp
+[4.246s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_interfaces/include/robotiq_3f_interfaces/robotiq_3f_interfaces/msg/detail/grasping_mode__type_support.hpp
+[4.246s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_interfaces/include/robotiq_3f_interfaces/robotiq_3f_interfaces/msg/detail/simple_control_command__struct.hpp
+[4.246s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_interfaces/include/robotiq_3f_interfaces/robotiq_3f_interfaces/msg/detail/independent_control_command__traits.hpp
+[4.246s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_interfaces/include/robotiq_3f_interfaces/robotiq_3f_interfaces/msg/detail/status__type_support.hpp
+[4.246s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_interfaces/include/robotiq_3f_interfaces/robotiq_3f_interfaces/msg/detail/grasping_mode__struct.hpp
+[4.246s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_interfaces/include/robotiq_3f_interfaces/robotiq_3f_interfaces/msg/detail/grasping_mode__traits.hpp
+[4.246s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_interfaces/include/robotiq_3f_interfaces/robotiq_3f_interfaces/msg/detail/independent_control_command__type_support.hpp
+[4.246s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_interfaces/include/robotiq_3f_interfaces/robotiq_3f_interfaces/msg/detail/object_detection_status__struct.hpp
+[4.246s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_interfaces/include/robotiq_3f_interfaces/robotiq_3f_interfaces/msg/detail/status__traits.hpp
+[4.247s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_interfaces/include/robotiq_3f_interfaces/robotiq_3f_interfaces/msg/detail/independent_control_command__struct.hpp
+[4.247s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_interfaces/include/robotiq_3f_interfaces/robotiq_3f_interfaces/msg/detail/simple_control_command__builder.hpp
+[4.247s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_interfaces/include/robotiq_3f_interfaces/robotiq_3f_interfaces/msg/grasping_mode.hpp
+[4.247s] -- Up-to-date: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_interfaces/include/robotiq_3f_interfaces/robotiq_3f_interfaces/srv
+[4.247s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_interfaces/include/robotiq_3f_interfaces/robotiq_3f_interfaces/srv/change_grasping_mode.hpp
+[4.247s] -- Up-to-date: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_interfaces/include/robotiq_3f_interfaces/robotiq_3f_interfaces/srv/detail
+[4.247s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_interfaces/include/robotiq_3f_interfaces/robotiq_3f_interfaces/srv/detail/change_grasping_mode__traits.hpp
+[4.247s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_interfaces/include/robotiq_3f_interfaces/robotiq_3f_interfaces/srv/detail/change_grasping_mode__type_support.hpp
+[4.248s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_interfaces/include/robotiq_3f_interfaces/robotiq_3f_interfaces/srv/detail/change_grasping_mode__builder.hpp
+[4.248s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_interfaces/include/robotiq_3f_interfaces/robotiq_3f_interfaces/srv/detail/change_grasping_mode__struct.hpp
+[4.248s] -- Up-to-date: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_interfaces/include/robotiq_3f_interfaces/robotiq_3f_interfaces
+[4.248s] -- Up-to-date: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_interfaces/include/robotiq_3f_interfaces/robotiq_3f_interfaces/msg
+[4.248s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_interfaces/include/robotiq_3f_interfaces/robotiq_3f_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[4.248s] -- Up-to-date: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_interfaces/include/robotiq_3f_interfaces/robotiq_3f_interfaces/msg/detail
+[4.248s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_interfaces/include/robotiq_3f_interfaces/robotiq_3f_interfaces/msg/detail/independent_control_command__rosidl_typesupport_fastrtps_cpp.hpp
+[4.248s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_interfaces/include/robotiq_3f_interfaces/robotiq_3f_interfaces/msg/detail/grasping_mode__rosidl_typesupport_fastrtps_cpp.hpp
+[4.248s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_interfaces/include/robotiq_3f_interfaces/robotiq_3f_interfaces/msg/detail/dds_fastrtps
+[4.248s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_interfaces/include/robotiq_3f_interfaces/robotiq_3f_interfaces/msg/detail/simple_control_command__rosidl_typesupport_fastrtps_cpp.hpp
+[4.248s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_interfaces/include/robotiq_3f_interfaces/robotiq_3f_interfaces/msg/detail/object_detection_status__rosidl_typesupport_fastrtps_cpp.hpp
+[4.248s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_interfaces/include/robotiq_3f_interfaces/robotiq_3f_interfaces/msg/detail/status__rosidl_typesupport_fastrtps_cpp.hpp
+[4.248s] -- Up-to-date: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_interfaces/include/robotiq_3f_interfaces/robotiq_3f_interfaces/srv
+[4.248s] -- Up-to-date: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_interfaces/include/robotiq_3f_interfaces/robotiq_3f_interfaces/srv/detail
+[4.248s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_interfaces/include/robotiq_3f_interfaces/robotiq_3f_interfaces/srv/detail/dds_fastrtps
+[4.248s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_interfaces/include/robotiq_3f_interfaces/robotiq_3f_interfaces/srv/detail/change_grasping_mode__rosidl_typesupport_fastrtps_cpp.hpp
+[4.248s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_interfaces/lib/librobotiq_3f_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[4.248s] -- Set non-toolchain portion of runtime path of "/home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_interfaces/lib/librobotiq_3f_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[4.248s] -- Up-to-date: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_interfaces/include/robotiq_3f_interfaces/robotiq_3f_interfaces
+[4.248s] -- Up-to-date: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_interfaces/include/robotiq_3f_interfaces/robotiq_3f_interfaces/msg
+[4.249s] -- Up-to-date: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_interfaces/include/robotiq_3f_interfaces/robotiq_3f_interfaces/msg/detail
+[4.249s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_interfaces/include/robotiq_3f_interfaces/robotiq_3f_interfaces/msg/detail/simple_control_command__rosidl_typesupport_introspection_cpp.hpp
+[4.249s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_interfaces/include/robotiq_3f_interfaces/robotiq_3f_interfaces/msg/detail/independent_control_command__rosidl_typesupport_introspection_cpp.hpp
+[4.249s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_interfaces/include/robotiq_3f_interfaces/robotiq_3f_interfaces/msg/detail/grasping_mode__rosidl_typesupport_introspection_cpp.hpp
+[4.249s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_interfaces/include/robotiq_3f_interfaces/robotiq_3f_interfaces/msg/detail/object_detection_status__type_support.cpp
+[4.249s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_interfaces/include/robotiq_3f_interfaces/robotiq_3f_interfaces/msg/detail/status__type_support.cpp
+[4.249s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_interfaces/include/robotiq_3f_interfaces/robotiq_3f_interfaces/msg/detail/independent_control_command__type_support.cpp
+[4.249s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_interfaces/include/robotiq_3f_interfaces/robotiq_3f_interfaces/msg/detail/object_detection_status__rosidl_typesupport_introspection_cpp.hpp
+[4.249s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_interfaces/include/robotiq_3f_interfaces/robotiq_3f_interfaces/msg/detail/grasping_mode__type_support.cpp
+[4.249s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_interfaces/include/robotiq_3f_interfaces/robotiq_3f_interfaces/msg/detail/status__rosidl_typesupport_introspection_cpp.hpp
+[4.249s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_interfaces/include/robotiq_3f_interfaces/robotiq_3f_interfaces/msg/detail/simple_control_command__type_support.cpp
+[4.249s] -- Up-to-date: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_interfaces/include/robotiq_3f_interfaces/robotiq_3f_interfaces/srv
+[4.249s] -- Up-to-date: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_interfaces/include/robotiq_3f_interfaces/robotiq_3f_interfaces/srv/detail
+[4.249s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_interfaces/include/robotiq_3f_interfaces/robotiq_3f_interfaces/srv/detail/change_grasping_mode__rosidl_typesupport_introspection_cpp.hpp
+[4.249s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_interfaces/include/robotiq_3f_interfaces/robotiq_3f_interfaces/srv/detail/change_grasping_mode__type_support.cpp
+[4.249s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_interfaces/lib/librobotiq_3f_interfaces__rosidl_typesupport_introspection_cpp.so
+[4.250s] -- Set non-toolchain portion of runtime path of "/home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_interfaces/lib/librobotiq_3f_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[4.250s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_interfaces/lib/librobotiq_3f_interfaces__rosidl_typesupport_cpp.so
+[4.250s] -- Set non-toolchain portion of runtime path of "/home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_interfaces/lib/librobotiq_3f_interfaces__rosidl_typesupport_cpp.so" to ""
+[4.250s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_interfaces/share/robotiq_3f_interfaces/environment/pythonpath.sh
+[4.250s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_interfaces/share/robotiq_3f_interfaces/environment/pythonpath.dsv
+[4.250s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_interfaces/lib/python3.12/site-packages/robotiq_3f_interfaces-0.0.1-py3.12.egg-info
+[4.250s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_interfaces/lib/python3.12/site-packages/robotiq_3f_interfaces-0.0.1-py3.12.egg-info/dependency_links.txt
+[4.251s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_interfaces/lib/python3.12/site-packages/robotiq_3f_interfaces-0.0.1-py3.12.egg-info/SOURCES.txt
+[4.251s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_interfaces/lib/python3.12/site-packages/robotiq_3f_interfaces-0.0.1-py3.12.egg-info/top_level.txt
+[4.252s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_interfaces/lib/python3.12/site-packages/robotiq_3f_interfaces-0.0.1-py3.12.egg-info/PKG-INFO
+[4.252s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_interfaces/lib/python3.12/site-packages/robotiq_3f_interfaces
+[4.252s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_interfaces/lib/python3.12/site-packages/robotiq_3f_interfaces/_robotiq_3f_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[4.252s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_interfaces/lib/python3.12/site-packages/robotiq_3f_interfaces/robotiq_3f_interfaces_s__rosidl_typesupport_introspection_c.so
+[4.252s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_interfaces/lib/python3.12/site-packages/robotiq_3f_interfaces/_robotiq_3f_interfaces_s.ep.rosidl_typesupport_c.c
+[4.252s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_interfaces/lib/python3.12/site-packages/robotiq_3f_interfaces/msg
+[4.252s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_interfaces/lib/python3.12/site-packages/robotiq_3f_interfaces/msg/_status.py
+[4.252s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_interfaces/lib/python3.12/site-packages/robotiq_3f_interfaces/msg/_grasping_mode.py
+[4.252s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_interfaces/lib/python3.12/site-packages/robotiq_3f_interfaces/msg/_simple_control_command.py
+[4.253s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_interfaces/lib/python3.12/site-packages/robotiq_3f_interfaces/msg/_grasping_mode_s.c
+[4.253s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_interfaces/lib/python3.12/site-packages/robotiq_3f_interfaces/msg/_status_s.c
+[4.253s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_interfaces/lib/python3.12/site-packages/robotiq_3f_interfaces/msg/_independent_control_command.py
+[4.253s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_interfaces/lib/python3.12/site-packages/robotiq_3f_interfaces/msg/_object_detection_status.py
+[4.253s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_interfaces/lib/python3.12/site-packages/robotiq_3f_interfaces/msg/__init__.py
+[4.253s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_interfaces/lib/python3.12/site-packages/robotiq_3f_interfaces/msg/_object_detection_status_s.c
+[4.253s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_interfaces/lib/python3.12/site-packages/robotiq_3f_interfaces/msg/_independent_control_command_s.c
+[4.253s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_interfaces/lib/python3.12/site-packages/robotiq_3f_interfaces/msg/_simple_control_command_s.c
+[4.253s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_interfaces/lib/python3.12/site-packages/robotiq_3f_interfaces/srv
+[4.253s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_interfaces/lib/python3.12/site-packages/robotiq_3f_interfaces/srv/_change_grasping_mode.py
+[4.253s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_interfaces/lib/python3.12/site-packages/robotiq_3f_interfaces/srv/__init__.py
+[4.253s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_interfaces/lib/python3.12/site-packages/robotiq_3f_interfaces/srv/_change_grasping_mode_s.c
+[4.254s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_interfaces/lib/python3.12/site-packages/robotiq_3f_interfaces/robotiq_3f_interfaces_s__rosidl_typesupport_c.so
+[4.254s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_interfaces/lib/python3.12/site-packages/robotiq_3f_interfaces/__init__.py
+[4.254s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_interfaces/lib/python3.12/site-packages/robotiq_3f_interfaces/_robotiq_3f_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[4.254s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_interfaces/lib/python3.12/site-packages/robotiq_3f_interfaces/robotiq_3f_interfaces_s__rosidl_typesupport_fastrtps_c.so
+[4.285s] Listing '/home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_interfaces/lib/python3.12/site-packages/robotiq_3f_interfaces'...
+[4.285s] Compiling '/home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_interfaces/lib/python3.12/site-packages/robotiq_3f_interfaces/__init__.py'...
+[4.285s] Listing '/home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_interfaces/lib/python3.12/site-packages/robotiq_3f_interfaces/msg'...
+[4.285s] Compiling '/home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_interfaces/lib/python3.12/site-packages/robotiq_3f_interfaces/msg/__init__.py'...
+[4.286s] Compiling '/home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_interfaces/lib/python3.12/site-packages/robotiq_3f_interfaces/msg/_grasping_mode.py'...
+[4.286s] Compiling '/home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_interfaces/lib/python3.12/site-packages/robotiq_3f_interfaces/msg/_independent_control_command.py'...
+[4.286s] Compiling '/home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_interfaces/lib/python3.12/site-packages/robotiq_3f_interfaces/msg/_object_detection_status.py'...
+[4.286s] Compiling '/home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_interfaces/lib/python3.12/site-packages/robotiq_3f_interfaces/msg/_simple_control_command.py'...
+[4.286s] Compiling '/home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_interfaces/lib/python3.12/site-packages/robotiq_3f_interfaces/msg/_status.py'...
+[4.286s] Listing '/home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_interfaces/lib/python3.12/site-packages/robotiq_3f_interfaces/srv'...
+[4.286s] Compiling '/home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_interfaces/lib/python3.12/site-packages/robotiq_3f_interfaces/srv/__init__.py'...
+[4.286s] Compiling '/home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_interfaces/lib/python3.12/site-packages/robotiq_3f_interfaces/srv/_change_grasping_mode.py'...
+[4.289s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_interfaces/lib/python3.12/site-packages/robotiq_3f_interfaces/robotiq_3f_interfaces_s__rosidl_typesupport_fastrtps_c.so
+[4.289s] -- Set non-toolchain portion of runtime path of "/home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_interfaces/lib/python3.12/site-packages/robotiq_3f_interfaces/robotiq_3f_interfaces_s__rosidl_typesupport_fastrtps_c.so" to ""
+[4.289s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_interfaces/lib/python3.12/site-packages/robotiq_3f_interfaces/robotiq_3f_interfaces_s__rosidl_typesupport_introspection_c.so
+[4.289s] -- Set non-toolchain portion of runtime path of "/home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_interfaces/lib/python3.12/site-packages/robotiq_3f_interfaces/robotiq_3f_interfaces_s__rosidl_typesupport_introspection_c.so" to ""
+[4.289s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_interfaces/lib/python3.12/site-packages/robotiq_3f_interfaces/robotiq_3f_interfaces_s__rosidl_typesupport_c.so
+[4.290s] -- Set non-toolchain portion of runtime path of "/home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_interfaces/lib/python3.12/site-packages/robotiq_3f_interfaces/robotiq_3f_interfaces_s__rosidl_typesupport_c.so" to ""
+[4.290s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_interfaces/lib/librobotiq_3f_interfaces__rosidl_generator_py.so
+[4.290s] -- Set non-toolchain portion of runtime path of "/home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_interfaces/lib/librobotiq_3f_interfaces__rosidl_generator_py.so" to ""
+[4.290s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_interfaces/share/ament_index/resource_index/rust_packages/robotiq_3f_interfaces
+[4.290s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_interfaces/share/robotiq_3f_interfaces/rust
+[4.291s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_interfaces/share/robotiq_3f_interfaces/rust/build.rs
+[4.291s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_interfaces/share/robotiq_3f_interfaces/rust/src
+[4.291s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_interfaces/share/robotiq_3f_interfaces/rust/src/msg
+[4.291s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_interfaces/share/robotiq_3f_interfaces/rust/src/msg/rmw.rs
+[4.291s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_interfaces/share/robotiq_3f_interfaces/rust/src/srv
+[4.291s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_interfaces/share/robotiq_3f_interfaces/rust/src/srv/rmw.rs
+[4.291s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_interfaces/share/robotiq_3f_interfaces/rust/src/msg.rs
+[4.291s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_interfaces/share/robotiq_3f_interfaces/rust/src/lib.rs
+[4.291s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_interfaces/share/robotiq_3f_interfaces/rust/src/srv.rs
+[4.291s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_interfaces/share/robotiq_3f_interfaces/rust/Cargo.toml
+[4.291s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_interfaces/share/robotiq_3f_interfaces/msg/ObjectDetectionStatus.idl
+[4.291s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_interfaces/share/robotiq_3f_interfaces/msg/Status.idl
+[4.291s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_interfaces/share/robotiq_3f_interfaces/msg/GraspingMode.idl
+[4.291s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_interfaces/share/robotiq_3f_interfaces/msg/SimpleControlCommand.idl
+[4.292s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_interfaces/share/robotiq_3f_interfaces/msg/IndependentControlCommand.idl
+[4.292s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_interfaces/share/robotiq_3f_interfaces/srv/ChangeGraspingMode.idl
+[4.292s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_interfaces/share/robotiq_3f_interfaces/msg/ObjectDetectionStatus.msg
+[4.292s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_interfaces/share/robotiq_3f_interfaces/msg/Status.msg
+[4.292s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_interfaces/share/robotiq_3f_interfaces/msg/GraspingMode.msg
+[4.292s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_interfaces/share/robotiq_3f_interfaces/msg/SimpleControlCommand.msg
+[4.292s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_interfaces/share/robotiq_3f_interfaces/msg/IndependentControlCommand.msg
+[4.292s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_interfaces/share/robotiq_3f_interfaces/srv/ChangeGraspingMode.srv
+[4.292s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_interfaces/share/ament_index/resource_index/package_run_dependencies/robotiq_3f_interfaces
+[4.293s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_interfaces/share/ament_index/resource_index/parent_prefix_path/robotiq_3f_interfaces
+[4.293s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_interfaces/share/robotiq_3f_interfaces/environment/ament_prefix_path.sh
+[4.293s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_interfaces/share/robotiq_3f_interfaces/environment/ament_prefix_path.dsv
+[4.293s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_interfaces/share/robotiq_3f_interfaces/environment/path.sh
+[4.293s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_interfaces/share/robotiq_3f_interfaces/environment/path.dsv
+[4.293s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_interfaces/share/robotiq_3f_interfaces/local_setup.bash
+[4.293s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_interfaces/share/robotiq_3f_interfaces/local_setup.sh
+[4.293s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_interfaces/share/robotiq_3f_interfaces/local_setup.zsh
+[4.294s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_interfaces/share/robotiq_3f_interfaces/local_setup.dsv
+[4.294s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_interfaces/share/robotiq_3f_interfaces/package.dsv
+[4.294s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_interfaces/share/ament_index/resource_index/packages/robotiq_3f_interfaces
+[4.294s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_interfaces/share/robotiq_3f_interfaces/cmake/export_robotiq_3f_interfaces__rosidl_generator_cExport.cmake
+[4.294s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_interfaces/share/robotiq_3f_interfaces/cmake/export_robotiq_3f_interfaces__rosidl_generator_cExport-noconfig.cmake
+[4.294s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_interfaces/share/robotiq_3f_interfaces/cmake/export_robotiq_3f_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[4.294s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_interfaces/share/robotiq_3f_interfaces/cmake/export_robotiq_3f_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[4.294s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_interfaces/share/robotiq_3f_interfaces/cmake/robotiq_3f_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[4.294s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_interfaces/share/robotiq_3f_interfaces/cmake/robotiq_3f_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[4.294s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_interfaces/share/robotiq_3f_interfaces/cmake/robotiq_3f_interfaces__rosidl_typesupport_cExport.cmake
+[4.295s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_interfaces/share/robotiq_3f_interfaces/cmake/robotiq_3f_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[4.295s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_interfaces/share/robotiq_3f_interfaces/cmake/export_robotiq_3f_interfaces__rosidl_generator_cppExport.cmake
+[4.295s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_interfaces/share/robotiq_3f_interfaces/cmake/export_robotiq_3f_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[4.295s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_interfaces/share/robotiq_3f_interfaces/cmake/export_robotiq_3f_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[4.295s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_interfaces/share/robotiq_3f_interfaces/cmake/robotiq_3f_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[4.295s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_interfaces/share/robotiq_3f_interfaces/cmake/robotiq_3f_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[4.295s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_interfaces/share/robotiq_3f_interfaces/cmake/robotiq_3f_interfaces__rosidl_typesupport_cppExport.cmake
+[4.295s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_interfaces/share/robotiq_3f_interfaces/cmake/robotiq_3f_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[4.296s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_interfaces/share/robotiq_3f_interfaces/cmake/export_robotiq_3f_interfaces__rosidl_generator_pyExport.cmake
+[4.296s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_interfaces/share/robotiq_3f_interfaces/cmake/export_robotiq_3f_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[4.296s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_interfaces/share/robotiq_3f_interfaces/cmake/rosidl_cmake-extras.cmake
+[4.296s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_interfaces/share/robotiq_3f_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[4.296s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_interfaces/share/robotiq_3f_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[4.296s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_interfaces/share/robotiq_3f_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[4.296s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_interfaces/share/robotiq_3f_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[4.297s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_interfaces/share/robotiq_3f_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[4.297s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_interfaces/share/robotiq_3f_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[4.297s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_interfaces/share/robotiq_3f_interfaces/cmake/robotiq_3f_interfacesConfig.cmake
+[4.297s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_interfaces/share/robotiq_3f_interfaces/cmake/robotiq_3f_interfacesConfig-version.cmake
+[4.297s] -- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_interfaces/share/robotiq_3f_interfaces/package.xml
+[4.299s] Invoked command in '/home/kunalgarg/Desktop/3f_robotiq/build/robotiq_3f_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/kunalgarg/Desktop/3f_robotiq/build/robotiq_3f_interfaces

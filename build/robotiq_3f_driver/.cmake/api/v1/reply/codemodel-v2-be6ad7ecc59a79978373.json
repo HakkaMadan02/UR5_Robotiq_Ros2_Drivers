@@ -1,0 +1,106 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-96ad51164f0f73bee17a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "robotiq_3f_driver",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "format::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-format-6dbb4e01a4b93dede2b7.json",
+					"name" : "format",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robotiq_3f_driver::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robotiq_3f_driver-b0e36a0563baba06da17.json",
+					"name" : "robotiq_3f_driver",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robotiq_3f_driver_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robotiq_3f_driver_node-b88fb31d6c7ebac10116.json",
+					"name" : "robotiq_3f_driver_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robotiq_3f_driver_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robotiq_3f_driver_uninstall-f419f48e69d3cb1030d4.json",
+					"name" : "robotiq_3f_driver_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tidy::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tidy-624f6c4460e39a5bd6f9.json",
+					"name" : "tidy",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-60eff770f84891970416.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/kunalgarg/Desktop/3f_robotiq/build/robotiq_3f_driver",
+		"source" : "/home/kunalgarg/Desktop/3f_robotiq/ws/src/ros2_robotiq_3f_gripper/robotiq_3f_driver"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

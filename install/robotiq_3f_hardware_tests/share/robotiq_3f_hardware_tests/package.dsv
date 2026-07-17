@@ -1,0 +1,5 @@
+source;share/robotiq_3f_hardware_tests/local_setup.bash
+source;share/robotiq_3f_hardware_tests/local_setup.dsv
+source;share/robotiq_3f_hardware_tests/local_setup.ps1
+source;share/robotiq_3f_hardware_tests/local_setup.sh
+source;share/robotiq_3f_hardware_tests/local_setup.zsh

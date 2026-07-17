@@ -1,0 +1,68 @@
+-- The C compiler identification is GNU 13.3.0
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Found hardware_interface: 4.44.0 (/opt/ros/jazzy/share/hardware_interface/cmake)
+-- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+-- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+-- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+-- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+-- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+-- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found transmission_interface: 4.44.0 (/opt/ros/jazzy/share/transmission_interface/cmake)
+-- Configuring done (1.2s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/kunalgarg/Desktop/3f_robotiq/build/robotiq_3f_transmission_plugins
+[ 66%] [32mBuilding CXX object CMakeFiles/individual_control_transmission.dir/src/individual_control_transmission.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/individual_control_transmission.dir/src/individual_control_transmission_loader.cpp.o[0m
+[100%] [32m[1mLinking CXX shared library libindividual_control_transmission.so[0m
+[100%] Built target individual_control_transmission
+-- Install configuration: ""
+-- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_transmission_plugins/include
+-- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_transmission_plugins/include/robotiq_3f_transmission_plugins
+-- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_transmission_plugins/include/robotiq_3f_transmission_plugins/individual_control_transmission.hpp
+-- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_transmission_plugins/include/robotiq_3f_transmission_plugins/individual_control_transmission_loader.hpp
+-- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_transmission_plugins/lib/libindividual_control_transmission.so
+-- Set non-toolchain portion of runtime path of "/home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_transmission_plugins/lib/libindividual_control_transmission.so" to ""
+-- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_transmission_plugins/share/robotiq_3f_transmission_plugins/transmission_plugins.xml
+-- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_transmission_plugins/share/robotiq_3f_transmission_plugins/environment/library_path.sh
+-- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_transmission_plugins/share/robotiq_3f_transmission_plugins/environment/library_path.dsv
+-- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_transmission_plugins/share/ament_index/resource_index/package_run_dependencies/robotiq_3f_transmission_plugins
+-- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_transmission_plugins/share/ament_index/resource_index/parent_prefix_path/robotiq_3f_transmission_plugins
+-- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_transmission_plugins/share/robotiq_3f_transmission_plugins/environment/ament_prefix_path.sh
+-- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_transmission_plugins/share/robotiq_3f_transmission_plugins/environment/ament_prefix_path.dsv
+-- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_transmission_plugins/share/robotiq_3f_transmission_plugins/environment/path.sh
+-- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_transmission_plugins/share/robotiq_3f_transmission_plugins/environment/path.dsv
+-- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_transmission_plugins/share/robotiq_3f_transmission_plugins/local_setup.bash
+-- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_transmission_plugins/share/robotiq_3f_transmission_plugins/local_setup.sh
+-- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_transmission_plugins/share/robotiq_3f_transmission_plugins/local_setup.zsh
+-- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_transmission_plugins/share/robotiq_3f_transmission_plugins/local_setup.dsv
+-- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_transmission_plugins/share/robotiq_3f_transmission_plugins/package.dsv
+-- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_transmission_plugins/share/ament_index/resource_index/packages/robotiq_3f_transmission_plugins
+-- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_transmission_plugins/share/ament_index/resource_index/transmission_interface__pluginlib__plugin/robotiq_3f_transmission_plugins
+-- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_transmission_plugins/share/robotiq_3f_transmission_plugins/cmake/export_individual_control_transmissionExport.cmake
+-- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_transmission_plugins/share/robotiq_3f_transmission_plugins/cmake/export_individual_control_transmissionExport-noconfig.cmake
+-- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_transmission_plugins/share/robotiq_3f_transmission_plugins/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_transmission_plugins/share/robotiq_3f_transmission_plugins/cmake/ament_cmake_export_targets-extras.cmake
+-- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_transmission_plugins/share/robotiq_3f_transmission_plugins/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_transmission_plugins/share/robotiq_3f_transmission_plugins/cmake/robotiq_3f_transmission_pluginsConfig.cmake
+-- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_transmission_plugins/share/robotiq_3f_transmission_plugins/cmake/robotiq_3f_transmission_pluginsConfig-version.cmake
+-- Installing: /home/kunalgarg/Desktop/3f_robotiq/install/robotiq_3f_transmission_plugins/share/robotiq_3f_transmission_plugins/package.xml
